@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<math>
+    <grado>
+        <titulo>5</titulo>
+        <tema>
+            <titulo>Estudio Analitico de una funcion</titulo>
+            <subtema>
+                <titulo>Titulo de subTema1</titulo>
+                <teorico>Teorico</teorico>
+                <ejercicios>
+                    <demostracion>
+                        <letra>Letra</letra>
+                        <pasos>
+                            <paso>d.1</paso>
+                            <paso>d.2</paso>
+                        </pasos>
+                    </demostracion>
+                    <practicos>
+                        <practico>
+                            <letra>Letra</letra>
+                            <paso>1.1</paso>
+                            <paso>1.2</paso>
+                        </practico>
+                        <practico>
+                            <letra>Letra</letra>
+                            <paso>2.1</paso>
+                            <paso>2.2</paso>
+                        </practico>
+                    </practicos>
+                </ejercicios>
+
+                <herramientas>
+                    <axiomas>
+                        <axioma>
+                            <titulo>Nombres</titulo>
+                            <explicacion>Implica Máximo y Mínimo absoluto</explicacion>
+                            <demostracion>idPractico_Y_Demostracion</demostracion>
+                        </axioma>
+                    </axiomas>
+
+                    <terminos>
+                        <termino>
+                            <titulo>Function continua</titulo>
+                            <explicacion>Implica Máximo y Mínimo absoluto</explicacion>
+                            <demostracion>idPractico_Y_Demostracion</demostracion>
+                            <apendices>Máximo y Mínimo absoluto</apendices>            
+                        </termino>            
+                    </terminos>
+
+                    <teoremas>
+                        <teorema>
+                            <titulo>Nombres</titulo>
+                            <hipotesis>Nombres</hipotesis>
+                            <teoria>Nombres</teoria>
+                            <demostracion>Columbia</demostracion>
+                        </teorema>
+                    </teoremas>
+
+                </herramientas>
+            </subtema>
+
+            <subtema>
+                <titulo>Titulo de subTema1</titulo>
+                <teorico>Teorico</teorico>
+                <herramientas>
+                    <teoremas>
+                        <teorema>
+                            <titulo>Nombres</titulo>
+                            <hipotesis>Nombres</hipotesis>
+                            <teoria>Nombres</teoria>
+                            <demostracion>Columbia</demostracion>
+                        </teorema>
+                    </teoremas>
+
+                    <axiomas>
+                        <axioma>
+                            <titulo>Nombres</titulo>
+                            <explicacion>Implica Máximo y Mínimo absoluto</explicacion>
+                            <demostracion>idPractico_Y_Demostracion</demostracion>
+                        </axioma>
+                    </axiomas>
+
+                    <terminos>
+                        <termino>
+                            <titulo>Function continua</titulo>
+                            <explicacion>Implica Máximo y Mínimo absoluto</explicacion>
+                            <demostracion>idPractico_Y_Demostracion</demostracion>
+                            <apendices>Máximo y Mínimo absoluto</apendices>            
+                        </termino>            
+                    </terminos>
+
+                </herramientas>
+
+ 
+            </subtema>
+
+            <subtema>
+                <titulo>Titulo de subTema1</titulo>
+                <teorico>Teorico</teorico>
+                <herramientas>
+                    <teoremas>
+                        <teorema>
+                            <titulo>Nombres</titulo>
+                            <hipotesis>Nombres</hipotesis>
+                            <teoria>Nombres</teoria>
+                            <demostracion>Columbia</demostracion>
+                        </teorema>
+                    </teoremas>
+
+                    <axiomas>
+                        <axioma>
+                            <titulo>Nombres</titulo>
+                            <explicacion>Implica Máximo y Mínimo absoluto</explicacion>
+                            <demostracion>idPractico_Y_Demostracion</demostracion>
+                        </axioma>
+                    </axiomas>
+
+                    <terminos>
+                        <termino>
+                            <titulo>Function continua</titulo>
+                            <explicacion>Implica Máximo y Mínimo absoluto</explicacion>
+                            <demostracion>idPractico_Y_Demostracion</demostracion>
+                            <apendices>Máximo y Mínimo absoluto</apendices>            
+                        </termino>            
+                    </terminos>
+
+                </herramientas>
+
+ 
+            </subtema>
+
+
+        </tema>
+
+
+
+
+
+        <tema>
+            <titulo>Titulo de Tema2</titulo>
+            <subtema>
+                <titulo>Titulo de subTema2</titulo>
+                <teorico>Teorico</teorico>
+                <herramientas>
+                    <teoremas>
+                        <teorema>
+                            <titulo>Nombres</titulo>
+                            <hipotesis>Nombres</hipotesis>
+                            <teoria>Nombres</teoria>
+                            <demostracion>Columbia</demostracion>
+                        </teorema>
+                    </teoremas>
+
+                    <axiomas>
+                        <axioma>
+                            <titulo>Nombres</titulo>
+                            <explicacion>Implica Máximo y Mínimo absoluto</explicacion>
+                            <demostracion>idPractico_Y_Demostracion</demostracion>
+                        </axioma>
+                    </axiomas>
+
+                    <terminos>
+                        <termino>
+                            <titulo>Function continua</titulo>
+                            <explicacion>Implica Máximo y Mínimo absoluto</explicacion>
+                            <demostracion>idPractico_Y_Demostracion</demostracion>
+                            <apendices>Máximo y Mínimo absoluto</apendices>            
+                        </termino>            
+                    </terminos>
+
+                </herramientas>
+
+ 
+            </subtema>
+        </tema>
+
+    </grado>
+    <grado>
+        <titulo>6</titulo>
+        <tema>
+            <titulo>Estudio Analitico de una funcion</titulo>
+            <subtema>
+                <titulo>Titulo de subTema1</titulo>
+                <teorico>Teorico</teorico>
+                <ejercicios>
+                    <demostracion>
+                        <letra>Letra</letra>
+                        <pasos>
+                            <paso>d.1</paso>
+                            <paso>d.2</paso>
+                        </pasos>
+                    </demostracion>
+                    <practicos>
+                        <practico>
+                            <letra>Letra</letra>
+                            <paso>1.1</paso>
+                            <paso>1.2</paso>
+                        </practico>
+                        <practico>
+                            <letra>Letra</letra>
+                            <paso>2.1</paso>
+                            <paso>2.2</paso>
+                        </practico>
+                    </practicos>
+                </ejercicios>
+
+                <herramientas>
+                    <axiomas>
+                        <axioma>
+                            <titulo>Nombres</titulo>
+                            <explicacion>Implica Máximo y Mínimo absoluto</explicacion>
+                            <demostracion>idPractico_Y_Demostracion</demostracion>
+                        </axioma>
+                    </axiomas>
+
+                    <terminos>
+                        <termino>
+                            <titulo>Function continua</titulo>
+                            <explicacion>Implica Máximo y Mínimo absoluto</explicacion>
+                            <demostracion>idPractico_Y_Demostracion</demostracion>
+                            <apendices>Máximo y Mínimo absoluto</apendices>            
+                        </termino>            
+                    </terminos>
+
+                    <teoremas>
+                        <teorema>
+                            <titulo>Nombres</titulo>
+                            <hipotesis>Nombres</hipotesis>
+                            <teoria>Nombres</teoria>
+                            <demostracion>Columbia</demostracion>
+                        </teorema>
+                    </teoremas>
+
+                </herramientas>
+            </subtema>
+
+            <subtema>
+                <titulo>Titulo de subTema1</titulo>
+                <teorico>Teorico</teorico>
+                <herramientas>
+                    <teoremas>
+                        <teorema>
+                            <titulo>Nombres</titulo>
+                            <hipotesis>Nombres</hipotesis>
+                            <teoria>Nombres</teoria>
+                            <demostracion>Columbia</demostracion>
+                        </teorema>
+                    </teoremas>
+
+                    <axiomas>
+                        <axioma>
+                            <titulo>Nombres</titulo>
+                            <explicacion>Implica Máximo y Mínimo absoluto</explicacion>
+                            <demostracion>idPractico_Y_Demostracion</demostracion>
+                        </axioma>
+                    </axiomas>
+
+                    <terminos>
+                        <termino>
+                            <titulo>Function continua</titulo>
+                            <explicacion>Implica Máximo y Mínimo absoluto</explicacion>
+                            <demostracion>idPractico_Y_Demostracion</demostracion>
+                            <apendices>Máximo y Mínimo absoluto</apendices>            
+                        </termino>            
+                    </terminos>
+
+                </herramientas>
+
+ 
+            </subtema>
+
+            <subtema>
+                <titulo>Titulo de subTema1</titulo>
+                <teorico>Teorico</teorico>
+                <herramientas>
+                    <teoremas>
+                        <teorema>
+                            <titulo>Nombres</titulo>
+                            <hipotesis>Nombres</hipotesis>
+                            <teoria>Nombres</teoria>
+                            <demostracion>Columbia</demostracion>
+                        </teorema>
+                    </teoremas>
+
+                    <axiomas>
+                        <axioma>
+                            <titulo>Nombres</titulo>
+                            <explicacion>Implica Máximo y Mínimo absoluto</explicacion>
+                            <demostracion>idPractico_Y_Demostracion</demostracion>
+                        </axioma>
+                    </axiomas>
+
+                    <terminos>
+                        <termino>
+                            <titulo>Function continua</titulo>
+                            <explicacion>Implica Máximo y Mínimo absoluto</explicacion>
+                            <demostracion>idPractico_Y_Demostracion</demostracion>
+                            <apendices>Máximo y Mínimo absoluto</apendices>            
+                        </termino>            
+                    </terminos>
+
+                </herramientas>
+
+ 
+            </subtema>
+
+
+        </tema>
+
+
+
+
+
+        <tema>
+            <titulo>Titulo de Tema2</titulo>
+            <subtema>
+                <titulo>Titulo de subTema2</titulo>
+                <teorico>Teorico</teorico>
+                <herramientas>
+                    <teoremas>
+                        <teorema>
+                            <titulo>Nombres</titulo>
+                            <hipotesis>Nombres</hipotesis>
+                            <teoria>Nombres</teoria>
+                            <demostracion>Columbia</demostracion>
+                        </teorema>
+                    </teoremas>
+
+                    <axiomas>
+                        <axioma>
+                            <titulo>Nombres</titulo>
+                            <explicacion>Implica Máximo y Mínimo absoluto</explicacion>
+                            <demostracion>idPractico_Y_Demostracion</demostracion>
+                        </axioma>
+                    </axiomas>
+
+                    <terminos>
+                        <termino>
+                            <titulo>Function continua</titulo>
+                            <explicacion>Implica Máximo y Mínimo absoluto</explicacion>
+                            <demostracion>idPractico_Y_Demostracion</demostracion>
+                            <apendices>Máximo y Mínimo absoluto</apendices>            
+                        </termino>            
+                    </terminos>
+
+                </herramientas>
+
+ 
+            </subtema>
+        </tema>
+
+    </grado>
+</math>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<indice>
+  <tema titulo="ARITMÉTICA">
+  
+    <capitulo nombre="Números reales">
+        <subtema>Clasificación</subtema>
+        <subtema>Propiedades</subtema>
+        <subtema>Lectura y escritura</subtema>
+        <subtema>Orden</subtema>
+        <subtema>Valor absoluto de un número</subtema>
+        <subtema>Calor absoluto y relativo del sistema posicional decimal</subtema>
+    </capitulo>
+    <capitulo nombre="Propiedades">
+        <subtema>Clasificación</subtema>
+        <subtema>Propiedades</subtema>
+        <subtema>Lectura y escritura</subtema>
+        <subtema>Orden</subtema>
+        <subtema>Valor absoluto de un número</subtema>
+        <subtema>Calor absoluto y relativo del sistema posicional decimal</subtema>
+    </capitulo>
+  </tema>
+  <tema titulo="ÁLGEBRA">
+    j
+    <capitulo nombre="Números reales">
+        <subtema>Clasificación</subtema>
+        <subtema>Propiedades</subtema>
+        <subtema>Lectura y escritura</subtema>
+        <subtema>Orden</subtema>
+        <subtema>Valor absoluto de un número</subtema>
+        <subtema>Calor absoluto y relativo del sistema posicional decimal</subtema>
+    </capitulo>
+kzzz
+  </tema>
+  <tema titulo="GEOMETRÍA Y TRIGONOMETRÍA">
+    
+    <capitulo nombre="Números reales">
+        <subtema>Clasificación</subtema>
+        <subtema>Propiedades</subtema>
+        <subtema>Lectura y escritura</subtema>
+        <subtema>Orden</subtema>
+        <subtema>Valor absoluto de un número</subtema>
+        <subtema>Calor absoluto y relativo del sistema posicional decimal</subtema>
+    </capitulo>
+  </tema>
+  <tema titulo="GEOMETRÍA ANALÍTICA">
+    
+    <capitulo nombre="Números reales">
+        <subtema>Clasificación</subtema>
+        <subtema>Propiedades</subtema>
+        <subtema>Lectura y escritura</subtema>
+        <subtema>Orden</subtema>
+        <subtema>Valor absoluto de un número</subtema>
+        <subtema>Calor absoluto y relativo del sistema posicional decimal</subtema>
+    </capitulo>
+  </tema>
+  <tema titulo="CÁLCULO DIFERENCIAL">
+    
+    <capitulo nombre="Números reales">
+        <subtema>Clasificación</subtema>
+        <subtema>Propiedades</subtema>
+        <subtema>Lectura y escritura</subtema>
+        <subtema>Orden</subtema>
+        <subtema>Valor absoluto de un número</subtema>
+        <subtema>Calor absoluto y relativo del sistema posicional decimal</subtema>
+    </capitulo>
+  </tema>
+  <tema titulo="CÁLCULO INTEGRAL">
+    
+    <capitulo nombre="Números reales">
+        <subtema>Clasificación</subtema>
+        <subtema>Propiedades</subtema>
+        <subtema>Lectura y escritura</subtema>
+        <subtema>Orden</subtema>
+        <subtema>Valor absoluto de un número</subtema>
+        <subtema>Calor absoluto y relativo del sistema posicional decimal</subtema>
+    </capitulo>
+  </tema>
+</indice>

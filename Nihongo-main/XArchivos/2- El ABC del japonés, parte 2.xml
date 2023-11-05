@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<clase titulo="Clase 2: ABC del japones, parte 2">
+    <tema titulo="Kanjis y Katakana(漢字とカタカナ)">
+        <subtema>
+            <p tipo="">
+                El capitulo anterior fue principalmente para el Hiragana, pero ahora terminaremos el ABC hablando del Kanji y el Kantakana.
+            </p>
+        </subtema>
+        <subtema titulo= "Kanji 漢字">
+            <p tipo="">
+                Además de ser el origen directo del Hiragana y Katanaka, si no sabes leerlos o escribirlos, en Japón, eres analfabeto, pero son tu más importante apoyo al leer e interpretar un mensaje. A mí me salvan el pellejo al leer porque si no conozco la palabra, más o menos la interpreto si tiene algún 漢字 conocido.
+            </p>
+            <p tipo="ta">
+                <tabla class="" titulo="Usos" color="">
+                    <tr>
+                        ➢ En textos muy formales puede que sólo leas kanji.
+                    </tr>
+                    <tr>
+                        ➢ Nombres de personas, ciudades o cosas técnicas. Tokyo se escribe en Kanji, siendo en verdad Toukyo 東京 とうきょ.
+                    </tr>
+                    <tr>
+                        ➢ Para diferenciar palabras; Muchas veces hay 2 palabras iguales que se entienden por contexto, como “Hola” y “Ola”. Dependiendo de como esté escrita la palabra, el significado varía. En inglés tienen “see” y “watch”, pero nosotros sólo decimos “ver”; Japón tiene varias palabras que se leen "Kami” pero se escriben y entonan distinto. Estas palabras son: pelo, dios, papel. Así que si sólo dices "かみ" no se sabe si te refieres al pelo, a un dios, o al pepel(aunque, claro, todo depdende del contexto, por lo que si están hablando de cosas que te gustan de una chica, no vas a decir "papel"). 
+                    </tr>
+                    <tr>
+                        ➢ El kanji se usa en sustantivos, adjetivos, verbos y adverbios como la raíz. La parte que no cambia al conjugarse. El kanji, siempre es la raíz de la palabra o parte de la raíz. Si es que la palabra tiene kanji.
+                    </tr>
+                </tabla>
+            </p>
+            <p tipo="ta">
+                <tabla class="" titulo="Particuluaridades" color="Amarillo">
+                    <tr>
+                        ➢ El kanji, generalmente, aunque existe excepciones, tiene más de una lectura. El motivo de esto está en el vídeo que os dejé al final del capitulo anterior. Pero, en resumen, esto es porque los chinos ya le habían puesto un nombre a los kanjis(caracteres chinos), pero los japoneses ya tenían un nombre para las cosas, así que el kanji de montaña se lee “Yama” y “San”, porque los chinos decían "San", así que le quedó como una de las posibles lecturas.
+                    </tr>
+                    <tr>
+                        ➢ Las lecturas del Kanji se separa en “Kun'yomi”, lectura japonesa. Regularmente cuando el kanji está solo o sólo con hiragana. “On'yomi” es la lectura extranjera(es decir, la china). 
+                    </tr>
+                    <tr>
+                        ➢ ¿Cómo saber si la lectura es kun u on?(abreviatura referida kun'yomi y a on'yomi): Cuando, en tu aplicación o diccionario de confianza, veas que la lectura está escrita con “katakana” es On, de lo contrario, es kun. Pero en verdad tampoco importa tanto el tipo de lectura; con el pasar del tiempo irás generando una intuición de qué lectura usar en cada situación en base a ver visto esos 漢字 en repetidas situaciones.
+                    </tr>
+                    <tr>
+                        ➢ ¿Y cómo sé cuál de las dos debo usar en cada momento? En verdad, como dije antes, no es importante, sólo memoriza las palabras como お元気, que siempre es “Ogenki” y sus 2 kanjis nunca se van leer distintos en esa palabra. A esto me refería con que irás aprendidendo kanjis: el último kanji de "ogenki" lo verás muchas veces en muchos contextos, pero si te separas en silabas la palabra, verás que el segundo kanji corresponde a "Ki", así que la próxima vez que lo veas, puedes intúir que quizás se lea "ki". Si te equivocas, sólo resta aprender del error.
+                    </tr>
+                    <tr>
+                        ➢ El kanji se ve muy complicado, parece IMPOSIBLE MEMORIZAR TODO ESO. Bueno, no es imposible, al igual que todo en esta vida, tiene un truco. Los Kanjis se componen de “Radicales”: pequeñas dibujos que implican un significado. A diferencia de los kanjis, son dibujos muy simples(aunque algunos son kanjin fungen de radical; como “fuego” ひ「 火 」, que te lo puedes encontrar en otros kanjis como radical. Un ejemplo es 炎炎の消防隊 "en'en no shouboutai") y hay pocos en comparación. 
+                    </tr>
+                    <tr>    
+                        ➢ Casi todas las aplicaciones de kanji te enseñan los radicales de los que están compuestos los kanjis, pero lo importante es aprender o asociarle un significado, para eso recomiendo “Asashi kanji”, o en su defecto, “Color Kanji”; ambas están en inglés pero es que casi todo está en inglés en cuanto al estudio.
+                    </tr>
+                    <tr>
+                        ➢ El siguiente paso para aprender a escribir kanji, es aprender como hacer los trazos. https://www.youtube.com/watch?v=S7J2Drwds_c . El vídeo explica las reglas de los trazos en chino, pero se pueden aplicar para el japones. Hay algunas cosas que cambian, pero encontraras la diferencia usando ejercicios de trazo. Busca en internet.
+                    </tr>
+                    <tr>
+                        ➢ Ya sabes como memorizar los kanjis, leerlos y escribirlos, pero no sabés qué significan. Para eso hay un truco sencillo: no aprendas su significado. Te pondré un ejemplo: 消防隊. Yo no tengo ni idea de qué significa cada kanji, o qué quiere decir la palabra, pero si intento deducir el significado de la palabra por el significado de cada kanji, seguro no saco nada en claro, así que sólo aprenderé qué signifca la palabra y como se lee. En éste caso, la palabar elegida se lee "shouboutai" y significa "bombero", aunque sus kanjis significan "extingir, defensa, cuerpo", por lo que literalmente sería algo como "Cuerpo de defensa de extinción" o "... contra la extinción". ¿Ves? No tiene sentido alguno. Aunque, aunque, sí vas a tener que memorizar un par de ellos porque cosas como 日, 火 son palabras en sí. 
+                    </tr>
+                    <tr>
+                        ➢ Existen los conocidos como “Jōyō kanji”("ō" significa "ou"), o “Kanjis cotidiaos”, y son una lista de más de 2000 kanjis que tienes que saber para cuando llegues a la universidad. Si sabes leerlos y escribirlos, estás salvado. Es como un vocabulario básico(porque literalmente son los kanjis que forman el vocabulario básico de un japonés). Pero tampoco te acomplejes, siempre se te puede olvidar como escribir algunos, pero procura no olvidar como se leen y su significado.
+                    </tr>
+                    <tr>
+                        ➢ A veces, algunos kanjis tienes sus lecturas salidas del radical. 語(go) tiene la lectura de 五(5). Pero es medio arbitrario, generalmente, los radicales dan un significado. Aprende con el tiempo, pero si encuentras casos como "go", puedes ayudarte de eso para memorizar la lectura de algunos kanjis.
+                    </tr>
+                    <tr>
+                       ➢ La mejor forma de intuir el significado de un kanji es fijandote en sus radicales; puede aprenderlo buscando el kanji en aplicaciones como "Kanji estudio".
+                    </tr>
+                </tabla>
+            </p>
+        </subtema>
+        <subtema titulo="Katakana カタカナ">
+            <p tipo="">
+                Para terminar, Katakana, repasado de manera rápida. El katakana se lee exactamente igual que el hiragana y sigue las mismas reglas, pero se usa en situaciones distintas, principalmente en palabras extrangeras y algunas pocas expresiones.
+
+            </p>
+            <p tipo="ta">
+                <tabla class="" titulo="Usos" color="Morado">
+                    <tr>
+                        ➢ Nombres extranjeros como “María”.
+                    </tr>
+                    <tr>
+                        ➢ Palabras en otros idiomas, como Okey, Love, Hug, Kiss, etc.
+                    </tr>
+                    <tr>
+                        ➢ Palabras que son onomatopeyas(palabras que representan sonidos, como escribir "toc toc"). Un ejemplo es "ﾄﾞｷ" que no es una palabra con significado, es una onomatopeya, pero se traduce como "emoción", porque es el sonido que hace el corazón cuando te emocionas "ﾄﾞｷﾄﾞｷ". (Aclaro, si no entiendes algún katakana, o hiragana, mira el botón azul de "kanas" arriba a la izquierda)
+                    </tr>
+                    <tr>
+                        ➢ Nombres de países(aunque algunos están con kanji, como china/中国/"ちゅうごく").
+                    </tr>
+                    <tr>
+                        ➢ Algunos nombres técnicos y de animales, como gato ねこ 猫 o perro いぬ 犬.
+                    </tr>
+                    <tr>
+                        ➢ Onomatopeyas de sonido. Principalmente, todas las onomatopeyas se escriben con katakana. Escuché que le da como un poco más de impacto y las hace como resaltar más. No lo pude comprobar.
+                    </tr>
+                </tabla>
+            </p>
+        </subtema>
+
+        <subtema titulo="Extra">
+            <p tipo="ta">
+                <tabla class="" titulo="Romanji" color="Amarillo">
+                    <tr>
+                        ➢ Es, en resumen son la representación de los sonidos con nuestro alfabeto. Ro, A, I, etc.
+                    </tr>
+                    <tr>
+                        ➢ El romanji no tiene sólo un modo de ser escrito, al igual que el hiragana y katakana, que según la caligrafía se ven distintos, también puedes ver “Natu”en vez de “Natsu” y leerse igual. “Si”, en vez de “Shi”, etc. Hay varias formas de escribir las lecturas según la estandarización que se use. Pero tampoco te compliques la cabeza y usa la que te muestro, es la estándar y la más común. Se encuentra en también en la mayoría de las tablas de silabarios como el de esta página.
+                    </tr>
+                </tabla>
+            </p>
+        </subtema>
+              
+    </tema>
+
+</clase>

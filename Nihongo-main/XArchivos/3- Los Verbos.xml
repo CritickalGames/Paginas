@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<clase titulo="3- Los Verbos">
+    <tema titulo="Empecemos con los tipos de verbos">
+        <subtema>
+            <p tipo="">
+                Al igual que en el español, el japones tiene un cuerpo y una terminación para sus verbos (“corr-er”, “Corr” es el cuerpo). La terminaciones del japones separan a los verbos en 3 grupos: 2 regulares y uno irregular. En el grupo de los irregulares existen tan sólo existen 2 verbos: する(hacer)y 来る(くる)(venir).
+            </p>
+        </subtema>
+        <subtema titulo= "Grupos 1/ごだん「五段」と Grupo 2/いちだん「一段」">
+            <p tipo="di">
+                <div class="contenedor" titulo="Grupo 1:" color="">
+                    <p>
+                        Grupo de raíz consonante, godan katsuyou「五段活用」(conjugación de 5 pasos). También conocido como grupo de verbos U(haciendo referencia a que la forma base de sus verbos acaba con el sonido U).
+                    </p>
+                    <p>
+                        En el japones no existen las idea de “conjugación” como tal, se le llaman “formas” y la que tomamos como “Infinitivo”(ar, er, ir) se llama “Forma de diccionario”. Es el modo en el que te vas a encontrar un verbo dentro del diccionario. 
+                    </p>
+                    <p>
+                        Es una forma informal, comúnmente vista en el anime y relaciones personales. Usar esto se puede tomar como una falta de cortesía si no sos un amigo cercanos. Es como cuando acá hablamos de “tú” con un colega, a los mayores se les trata de usted o vos.
+                    </p>
+                    <p>
+                        Dentro de éste grupo las terminaciones de la forma diccionario son: U, TSU, RU, KU, GU, NU, BU, MU y SU.
+                    </p>
+                </div>
+            </p>
+            <p tipo="di">
+                <div class="contenedor" titulo="Grupo 2:" color="Verde">
+                    <p>
+                        De Raíz Vocal, ichidan katsuyo 「一段活用」(conjugación de un paso) o también conocido como de verbo RU.
+                    </p>
+                    <p>
+                        Éste grupo tiene dos terminaciones en su forma diccionario: (I)RU y (E)RU. Ejemplo: Miru 見る y Taberu 食べる, son de éste grupo, pues, su sonido termina en “IRU” y“ERU” respectivamente(aunque no te puedes fiar sólo de esto para distinguir si es o no es.
+                    </p>
+                    <p>
+                        Lo mejor es buscar en tu diccionario/aplicación, el verbo y verás si es o no es. Para esta labor recomiendo Jsho, japanese verb conjugations y jisho dictionary. El primero y el tercero sirven también para adjetivos, el segundo sólo sirve con verbos, pero entre los 3 se complementan.
+                    </p>
+                    <p>
+                        Cuando escribo (E)RU, (I)RU, me refiero a cualquier silaba terminada en la vocal "E" o "I" seguido de la silaba "る". Los ejemplos anteriores eran みる y たべる; que en Romanji son "Miru" y "Taberu".
+                    </p>
+                </div>
+            </p>
+            <p tipo="">
+                Ahora, es muy probable que te preguntes el porque del nombre de “raíz consonante” o “Raíz vocal”. 
+            </p>
+            <p tipo="">
+                ¿Recuerdas que dije que al igual que en el español, el japones tiene una terminación? Bueno, esto implica tener una raíz. Para entender esta parte es más cómodo verlo todo en romanji, pero usaré un poco de kanji.
+            </p>
+            <p tipo="di">
+                <div class="contenedor" titulo="¿Por qué raíz vocal o consonante?" color="Naranja">
+                    <p>
+                        Tenemos 2 verbos: (leer)Yomu 読む, del grupo 1, y (mirar)Miru 見る, del grupo 2. Si queremos pasar ambos verbos a su forma negativa, tenemos que seguir distintas reglas. 
+                    </p>
+                    <p>
+                        Yom-u, pasa a ser Yom-anai 読まない, mientras que Mi-ru pasa a ser Mi-nai 見ない.
+                    </p>
+                    <p>
+                        ¿Logras notar porque el grupo 1 es conocido como “raíz consonante” y el 2 “raíz vocal”? Si no lo captas aún, yo te explico. El motivo es que al momento de conjugar el verbo, la raíz, la parte que no se cambia, termina en un consonante en el caso del grupo 1, pero en el caso del grupo 2 siempre acaba en una vocal (I o E).
+                    </p>
+                </div>
+            </p>
+            <p tipo="">
+                Los irregulares, por su parte, son irregulares, así que no hay más que memorizar.
+            </p>
+            <p tipo="">
+                Tiempo de aprender las conjugaciones. Estas son todas las que yo pude y quise conseguir, pues las 3 aplicaciones que nombre antes (Jsho, japanese verb conjugations y jisho dictionary) tienen todas las conjugaciones que yo tengo y más, pero yo las voy a sacar de https://en.wikipedia.org/wiki/Japanese_verb_conjugation . Ojo cuidado, pues algunos verbos están mal escritos en sus ejemplos, aunque las conjugaciones están correctas.
+            </p>
+
+        </subtema>
+
+
+        <subtema titulo="Grupo 1: Las conjugaciones están en orden y se supone no tienen errores">
+            <p tipo="ta">
+                <tabla class="cajas" titulo="Forma Diccionario">
+                    <tr>
+                        La tabla asumirá las formas diccionario de cada terminación, como la forma básica: así que si vamos a conjugar 買う(かう) que significa "Comprar", entonces vamos a la columna de la う y elegimos la conjugación. Por ejemplo: digamosle a nuestro jefe que estamos comprando(por poner un ejemplo): 今私は買います(= いまわたしはかいます) que, aunque de una forma un tanto robotica, significa ahora estás comprando, pero al estar escrito "kaimasu", estás siendo formal y cortes.
+                    </tr>
+                    <tr>
+                        Ah, y tomen en cuenta que una vocal entre paracentesis significa que la vocal que está dentro ejemplo (I) debe ser con la que termine el verbo antes de el siguiente hiragana. Ejemplo: (I) +ます. Ejemplo “読みます”que era “Yomu” y ahora es “Yomimasu”.Ahí la U de "む" para a I, por lo que "む" pasa a ser "み".
+                    </tr>
+                    <tr>
+                        Encuentra algunas formas(Conjugaciones) extras en japonesonline.com
+                    </tr>
+                </tabla>
+            </p>
+            
+            <p tipo="ta">
+                <tabla class="celdas" celdas="celdas" titulo="">
+                    <tr color="Negro">
+                        <td>Forma</td>
+                        <td>Regla</td>
+                        <td>う</td>
+                        <td>つ</td>
+                        <td>る</td>
+                        <td>く</td>
+                        <td>ぐ</td>
+                        <td>ぬ</td>
+                        <td>ぶ</td>
+                        <td>む</td>
+                        <td>す</td>
+                    </tr>
+                    <tr color="Verde">
+                        <td color="1">Formal</td>
+                        <td color="">(I)+ます</td>
+                        <td color="">います</td>
+                        <td color="">ちます</td>
+                        <td color="">ります</td>
+                        <td color="">きます</td>
+                        <td color="">ぎます</td>
+                        <td color="">にます</td>
+                        <td color="">びます</td>
+                        <td color="">みます</td>
+                        <td color="">します</td>
+                    </tr>
+                    <tr color="Verde">
+                        <td color="1">Negativo</td>
+                        <td color="">(A)+ない</td>
+                        <td color="">あない</td>
+                        <td color="">たない</td>
+                        <td color="">らない</td>
+                        <td color="">かない</td>
+                        <td color="">がない</td>
+                        <td color="">なない</td>
+                        <td color="">びない</td>
+                        <td color="">まない</td>
+                        <td color="">さない</td>
+                    </tr>
+                    <tr color="Verde">
+                        <td color="1">て</td>
+                        <td color="">(U)+って</td>
+                        <td color="">うって</td>
+                        <td color="">つって</td>
+                        <td color="">るって</td>
+                        <td color="">くって</td>
+                        <td color="">ぐんて</td>
+                        <td color="">ぬんて</td>
+                        <td color="">ぶんて</td>
+                        <td color="">むんて</td>
+                        <td color="">して</td>
+                    </tr>
+                    <tr color="Verde">
+                        <td color="1">た</td>
+                        <td color="">(U)+った</td>
+                        <td color="">うった</td>
+                        <td color="">つった</td>
+                        <td color="">るった</td>
+                        <td color="">くった</td>
+                        <td color="">ぐんた</td>
+                        <td color="">ぬんた</td>
+                        <td color="">ぶんた</td>
+                        <td color="">むんた</td>
+                        <td color="">しった</td>
+                    </tr>
+                    <tr color="Verde">
+                        <td color="1">Potencial</td>
+                        <td color="">(E)+る</td>
+                        <td color="">える</td>
+                        <td color="">てる</td>
+                        <td color="">れる</td>
+                        <td color="">げる</td>
+                        <td color="">げる</td>
+                        <td color="">ねる</td>
+                        <td color="">べる</td>
+                        <td color="">める</td>
+                        <td color="">せる</td>
+                    </tr>
+                    <tr color="Verde">
+                        <td color="1">Condicional</td>
+                        <td color="">(E)+ば</td>
+                        <td color="">えば</td>
+                        <td color="">てば</td>
+                        <td color="">れば</td>
+                        <td color="">げば</td>
+                        <td color="">げば</td>
+                        <td color="">ねば</td>
+                        <td color="">べば</td>
+                        <td color="">めば</td>
+                        <td color="">せば</td>
+                    </tr>
+                    <tr color="Verde">
+                        <td color="1">Condicional pasado</td>
+                        <td color="">F・た+ら</td>
+                        <td color="">うったら</td>
+                        <td color="">つったら</td>
+                        <td color="">るったら</td>
+                        <td color="">くったら</td>
+                        <td color="">ぐんたら</td>
+                        <td color="">ぬんたら</td>
+                        <td color="">ぶんたら</td>
+                        <td color="">むんたら</td>
+                        <td color="">したら</td>
+                    </tr>
+                    <tr color="Verde">
+                        <td color="1">Volativa</td>
+                        <td color="">(O)+う</td>
+                        <td color="">おう</td>
+                        <td color="">とう</td>
+                        <td color="">ろう</td>
+                        <td color="">こう</td>
+                        <td color="">ごう</td>
+                        <td color="">のう</td>
+                        <td color="">ぼう</td>
+                        <td color="">もう</td>
+                        <td color="">そう</td>
+                    </tr>
+                    <tr color="Verde">
+                        <td color="1">Pasiva</td>
+                        <td color="">(A)+れる</td>
+                        <td color="">あれる</td>
+                        <td color="">たれる</td>
+                        <td color="">られる</td>
+                        <td color="">がれる</td>
+                        <td color="">がれる</td>
+                        <td color="">なれる</td>
+                        <td color="">ばれる</td>
+                        <td color="">まれる</td>
+                        <td color="">される</td>
+                    </tr>
+                    <tr color="Verde">
+                        <td color="1">Causativa</td>
+                        <td color="">(A)+せる</td>
+                        <td color="">あせる</td>
+                        <td color="">たせる</td>
+                        <td color="">らせる</td>
+                        <td color="">がせる</td>
+                        <td color="">がせる</td>
+                        <td color="">なせる</td>
+                        <td color="">ばせる</td>
+                        <td color="">ませる</td>
+                        <td color="">させる</td>
+                    </tr>
+                    <tr color="Verde">
+                        <td color="1">Prohibitiva</td>
+                        <td color="">(U)+な</td>
+                        <td color="">うな</td>
+                        <td color="">つな</td>
+                        <td color="">るな</td>
+                        <td color="">くな</td>
+                        <td color="">ぐな</td>
+                        <td color="">ぬな</td>
+                        <td color="">ぶな</td>
+                        <td color="">むな</td>
+                        <td color="">すな</td>
+                    </tr>
+                    <tr color="Verde">
+                        <td color="1">Imperativa</td>
+                        <td color="">(E)+</td>
+                        <td color="">え</td>
+                        <td color="">て</td>
+                        <td color="">れ</td>
+                        <td color="">け</td>
+                        <td color="">げ</td>
+                        <td color="">ね</td>
+                        <td color="">べ</td>
+                        <td color="">め</td>
+                        <td color="">せ</td>
+                    </tr>
+                    
+                </tabla>
+            </p>
+            <p tipo="ta">
+                      <tabla class="celdas" titulo="Conjugar en pasado, negativo, formal: en godan.">
+                    <tr>
+                        <td>Forma</td>
+                        <td>Regla</td>
+                        <td>Descripción</td>
+                    </tr>
+                    <tr>
+                        <td>Negativo no formal</td>
+                        <td>る＞(A)ない</td>
+                        <td>Es muy coloquial</td>
+                    </tr>
+                    <tr>
+                        <td>Pasado no formal</td>
+                        <td>"る＞Forma た"</td>
+                        <td>Es muy coloquial</td>
+                    </tr>
+                    <tr>
+                        <td>Negado Pasado no formal</td>
+                        <td>る＞(A)なかった</td>
+                        <td>Es muy coloquial</td>
+                    </tr>
+                    <tr>
+                        <td>Negativo Formal</td>
+                        <td>(I)ません</td>
+                        <td>Usado entre desconocidos</td>
+                    </tr>
+                    <tr>
+                        <td>Pasado Formal</td>
+                        <td>(I)ました</td>
+                        <td>Usado entre desconocidos</td>
+                    </tr>
+                    <tr>
+                        <td>Negativo Pasado Formal</td>
+                        <td>(I)ませんでした</td>
+                        <td>Usado entre desconocidos</td>
+                    </tr>
+                </tabla>          
+            </p>
+        </subtema>
+        
+        <subtema titulo="Grupo 2 y 3">
+            <p tipo="">
+                La primera columna aplica para el grupo 2 y las últimas dos son del grupo 3.
+            </p>
+            <p tipo="">
+                Los verbos ichidan 一段(いちだん)
+            </p>
+        </subtema>
+
+
+    </tema>
+
+</clase>

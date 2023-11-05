@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Main -->
+<clase titulo="Clase 1: El ABC del japonés, parte 1">
+    <!-- Section -->
+    <tema titulo="Sistemas de escritura">
+        <!-- Articulo -->
+        <subtema>
+            <!-- Parrafo -->
+            <p tipo="">
+                Hay 3 sistemas de escritura: los kanas(que pueden ver con el botón de arriba a la izquierda) y conformados por hiragana(ひらがな) y katakana(カタカナ). El tercero son los Kanjis(漢字).
+            </p>
+        </subtema>
+        <subtema titulo= "Hiragana">
+            <p tipo="">
+                El primero método del que hablaré se llama “Hiragana”.
+            </p>
+            <p tipo="">
+                El Hiragana es el primer sistema de escritura(o también se le puede conocer como “Silabario”) que se le enseña a los niños en Japón y el que considero el más importante ya que, salvo contadas excepciones, siempre está presente.
+            </p>
+            <p tipo="">
+                Para identificar los hiraganas(ひらがな) y diferenciarlos del katakana(カタカナ) veremos que ambos son caracteres simples de no más de 3 o 5 trazos, pero el ひらがな es más curvo que el カタカナ.
+            </p>
+            <p tipo="">
+                Hay algs kanas que coinciden entre sí en la tabla del ひらがな y la tabla del カタカナ. へ(he) y りリ(ri) son fáciles de confundir. El primero porque en abmos silabarios son el mismo caracter y el segundo porque según la tipografía puede confundirse un poco.
+            </p>
+            <p tipo="">
+                Pero hablando especificamente del ひらがな. 
+            </p>
+        </subtema>
+        <subtema titulo="Pimero: sus usos.">
+            <p tipo="">
+                Como dije antes, el ひらがな es el primer sistema de escritura que aprenden en 日本(にほん), y por ende, empezaremos por ahí.
+            </p>
+            <p tipo="ta">
+                <tabla class="" titulo="Los usos del ひらがな">
+                    <tr>
+                        ➢ El hiragana es la representación fonética de las silabas.
+                    </tr>
+                    <tr>
+                        ➢ El hiragana sirve para escribir onomatopeya. Como en Jojo's. Muchas veces las veras en gritos como el famoso “Kyaaa”. Primero aparecerá la sílaba combinada(mira la tabla de la derecha en la imagen anterior) y luego una sucesión de sílabas “A”.
+                    </tr>
+                    <tr>
+                        ➢ El hiragana puede sustituir todo: kanji, katakana y romanji(luego hablaré del romanji).
+                    </tr>
+                    <tr>
+                        ➢ El hiragana es usado en palabras de origen japones.
+                    </tr>
+                    <tr>
+                        ➢ El hiragana es usado en las tan famosas, y odiadas, “Partículas”. Algo de gramática.
+                    </tr>
+                    <tr>
+                        ➢ El hiragana es usado en las conjugaciones, como “食べる”siendo “TA” el kanji y “beru”(べる) la terminación en hiragana que te dice que está en su forma diccionario (ver clase 3).
+                    </tr>
+                    <tr>
+                        ➢ El hiragana se usa para el Furigana, que son pequeños hiraganas al lado de un kanji para enseñar su lectura. Ejemplo: 食「た」べる。El furigana se encuentra en cosas infantiles como One Piece, Detective Conan, Komi san, etc. Cosas para todo el publico. 
+                    </tr>
+                </tabla>
+            </p>
+        </subtema>
+
+        <subtema titulo="Segundo: usar la tabla de 'kana'">
+            <p tipo="ta">
+                <tabla class="cajas" titulo="">
+
+                    <tr tipo="">
+                        La tabla de la que hablo puedes verla arriba a la izquierda en un botón azul llamado "kanas".
+                    </tr>
+                    <tr tipo="">
+                        La tabla mezcla la tambla del カタカナ y ひらがな, dos silabarios con las mismas pronunciaciones y usos distintos. También muestra su lectura "Romanji" abajo de cada silaba. Romanji en la representación con nuestras letras.
+                    </tr>
+                    <tr tipo="">
+                        Para aprender una nueva silaba, buscas la más parecida en la tabla y lees debajo su pronunciación. Por ejemplo: ま es "Ma".
+                    </tr>
+                    <tr tipo="">
+                        Pero hay una forma de intuir la lectura de cualquier silaba.
+                    </tr>
+                    <tr tipo="">
+                        Las primeras 5 silabas son vocales y representa las 5 columnas base. Luego hay 14 filas que representan consonantes. 
+                    </tr>
+                    <tr tipo="">
+                        Pongamos un ejemplo: fila de la K: se lee "ka","ki","ku","ke","ko"; por lo tanto, si te doy los ひらがな en el mismo orden, y te digo que son de la fila de la K, tendremos かきくけこ.
+                    </tr>
+                    <tr tipo="">
+                        Si eres capaz de pensar un poco por tu cuenta, entenderás que dije か(ka)き(ki)く(ku)け(ke)こ(ko).
+                    </tr>
+                    <tr tipo="">
+                        Un último ejemplo: まみむめも, fila de la M y en el orden de las vocales, que, por cierto, en japonés se dice "A,I,U,E,O".
+                    </tr>
+                </tabla>
+
+            </p>
+            <p tipo="ta">
+                <tabla class="cajas" titulo="">
+
+                    <tr tipo="">
+                        Por cierto, la N es la única silaba que no tiene vocal y en el teclado se escribe "nn", pero se puede representar "n'" para no dar a malos confundidos.
+                    </tr>
+                    <tr tipo="">
+                        Aclración de como leer ciertas silabas: Si tiene "H", como ha(は), hi(ひ), he(へ), ho(ほ), recordemos que "hu" no está porque se lee "Fu"; entonces la lectura es como una "J" como en "hashimemasu" o "ohayou gozaimasu" donde "ha" se lee "ja", o "kameame haaa" que todos sabemos que no es "honda vital"; Digo digo; que todos sabemos que no es "kameame aaaa".
+                    </tr>
+                    <tr tipo="">
+                        Si la silaba va con "J", la lectura es SH, como "Jutsu", "jujutsu kaisen" o "jojo"; Por cierto, no sé vos, pero yo estuve pronunciando mal el genero "shojo" toda mi vida hasta que empece a estudiar japonés y me di cuenta de que no se lee "shoho", se lee "shosho"(es decir, con la J como una SH), y ahora lo sabes tú también.
+                    </tr>
+                    <tr tipo="">
+                        La fila de la "Y", no se lee "sh" se lee "I". Ejemplo: "Yamerou", "Yuri on Ice" o "Yukion'na".
+                    </tr>
+                </tabla>
+            </p>
+            <p tipo="ta">
+                <tabla class="cajas" titulo="">
+
+                    <tr tipo="">
+                        Hay algo que se les puede resultar extraño si han estudiado japonés antes y son las filas por debajo de la W. Esas filas probablemente nunca las hayáis visto, pero son importantes y fáciles de aprender.
+                    </tr>
+                    <tr tipo="">
+                        No tienen un nombre como tal y a veces van debajo de otras filas(ejemplo: "ga" va debajo de "ka" porque la primera es が y la segunda es か. Iguales practicamente) Estas filas son la iteración de la fila original pero con unas comillas llamadas "tenten"(ten=punto) o "nigori".
+                    </tr>
+                    <tr tipo="">
+                        Éxisten dos modificadores: los "tenten" y el "maru"(algo así como "bolita"), pero éste último sólo se ve en la fila de la P.
+                    </tr>
+                    <tr tipo="">
+                        La idea es simple: si tienes un sonido fuerte como か, al agregarle el "tente" el sonido se "suaviza" o eso es lo que logré encontrar, y ese "ka" pasa a ser "ga"(が). Y si tenemos un は, se convierte en "ba"(ば) con el "tenten", pero si que "ba"ば sea más fuerte, decimos "pa"ぱ con el "maru". Lo sé, medio confuso, pero es sólo cuestion de practicar las lecturas y memorizar a lo bruto con alguna APP. No importa cual, todas sirven para lo mismo y son la mejor forma de aprenderte el silabario.
+                    </tr>
+                </tabla>
+            </p>
+        </subtema>
+        <subtema titulo="Tercero: silabas con lecturas especiales">
+            <p tipo="">
+                La siguiente tabla muestra lecturas que no corresponden a las reglas de lectura intuitiva. Como en la fila de la "S": さしすせそ, que no se lee SA,SI,SU,SE,SO; sino que se lee SA,SHI,SU,SE,SO.
+            </p>
+            <p tipo="ta">
+                <tabla class="celdas" celdas="" titulo="">
+                    <tr>
+                        <td>し</td>
+                        <td>ち</td>
+                        <td>つ</td>
+                        <td>ふ</td>
+                        <td>じ</td>
+                        <td>ぢ</td>
+                        <td>づ</td>
+                    </tr>
+                    <tr>
+                        <td>SHI</td>
+                        <td>CHI</td>
+                        <td>TSU</td>
+                        <td>FU</td>
+                        <td>JI</td>
+                        <td>JI</td>
+                        <td>ZU</td>
+                    </tr>
+                </tabla>
+            </p>
+            <p tipo="">
+                NOTA: Para escribir en el teclado ぢ y づ se escriben DI y DU para diferenciarlos, pero し,ち,つ,ふ en teclado se pueden escribir: si, ti, tu, hu; como si sus lecturas fueran normales, pero no se confundan, la lecturas reales son las de las tablas.
+            </p>
+            <p tipo="">
+                WO(を) se lee “Wo”, pero se suele leer “O” al usarse con fines gramaticales. Ejemplo “Sushi o taberu”. 寿司を食べる, que significa “Como sushi”.
+            </p>
+        </subtema>
+        <subtema titulo="Cuarto: convinar silabas">
+            <p tipo="ta">
+                <tabla class="cajas" titulo="Varios tipos de silabas fuera de las básicas">
+                    <tr>
+                        "Nya". Todos hemos oido ese sonidito que nos recuerda a un lindo gatito, pero, no sé si lo comprendiste, pero el japónes es un idioma silabaico, por lo que los sonidos que se pueden hacer son supuestamente unos 61 contando sonidos como BA y PA(de los que luego hablaré), pero si nos fijamos, "Nya" es de consonante N, pero no aparece en la fila de la N. ¿Cómo se soluciona? Pues, para emepzar: en la tabla de los kanas tienen los kanas convinados a la derecha, pero para sacarlos de manera intuitiva las reglás son más o menos las siguientes.
+                    </tr>
+                    <tr>
+                        ➢ Para los sonidos con "ya" después de una consonante:Kya(きゃ), Nya(にゃ), Nyu(にゅ), Nyo(にょ), se escribe una silaba que termine en "I", como "Ki", con la silaba や, ゆ o よ, pero más pequñas; ゃ, ゅ, ょ(que en el teclado se escribe lya, lyu, lyo, respectivamente, pero con escribir "nya" ya es más que suficiente), pero que no sólo es para la K y la N, puedes hacerlo con cualquier silaba que termine en "I".
+                    </tr>
+                    <tr>
+                        ➢ La pronunciación para し, じ y ち con la fila de la "Y" es distinta, son "Sha","Shu","Sho"; "Ja","Ju","Jo" y "Cha","Chu","Cho".
+                    </tr>
+                    <tr>
+                        ➢ Para crear silabas como "Fe" o "Ti" se agarra la vocal que queremos implantar en versión chiquita(al escribir en teclado, si primero usamos la L podemos convertir las silabas en sus versiones chiquitas en caso de tenerlas; "ヵか" por ejemplo), y delante la consontante donde quermos implantarla. En caso de "Fe"ふぇ en caso de "Ti" es "てぃ". Pero un detalle imporante: estas son silabas que nunca veras en el día a día japonés, por lo que son pronunciaciones extranjeras y por lo tanto deben ser escritas en カタカナ, por lo que quedan ﾌｪ y ティ, respectivamente(no se confundan, son las mismas silabas, pero en vez de estar en hiragana, están en katakana)
+                    </tr>
+                    <tr>
+                        ➢ Para otras silabas como "Vi" que, también, sólo se encuentran en el katakana al ser parte del vocabulario extranjero, os recomiendo simplemente buscarlo o esperar a encontrase con palabras con esas silabas. No tardarán mucho en encontrarla.
+                    </tr>
+                </tabla>
+            </p>
+        </subtema>
+        <subtema titulo="Quinta y ultima cosa antes de comenzar a practicar lectura">
+            <p tipo="">
+                En el segundo punto hablamos sobre como usar la tabla, pero también de cosas como "¿Cómo leer Ya o Ja?". Bueno, acá recopilaré eso para dejarlo más a mano. Si no te interesa, salta éste punto. Pero trataremos las siguientes letras:
+            </p>
+            <p tipo="">
+                J, Y, H; porque no tienen una lectura intuitiva para nosotros.
+            </p>
+            <p tipo="">
+                U e I; porque alargan el sonido O y E, respectivamente.
+            </p>
+            <p tipo="ta">
+                <tabla class="celdas" celdas="" titulo="">
+                    <tr>
+                        <td>Consontante:</td>
+                        <td>J</td>
+                        <td>Y</td>
+                        <td>H</td>
+                    </tr>
+                    <tr>
+                        <td>Como se lee en verdad</td>
+                        <td>Se leee CH, así que "Jo" para un japonés, es como "Yo" en español</td>
+                        <td>Se lee I, por lo que "Yuki"(nieve 雪) se lee "Iuki"</td>
+                        <td>Se lee J, como en cuando decimos "Jope"</td>
+                    </tr>
+                    <tr>
+                        <td>Ejemplos</td>
+                        <td>"Jojo's bizzard adventure", "justsu", "Jujutsu kaisen"</td>
+                        <td>"Yabai", "Yosu", "Yokai"</td>
+                        <td>"Hamon", "Haikyuu", "hashimemasu", "Ohayou"</td>
+                    </tr>
+                </tabla>
+            </p>
+            <p tipo="">
+                ¿Qué eso de "alargar el sonido"? Cuando lees algo que termina en "Ei", si está en japonés, se lee "Ee". Así que no es "Sensei" a la hora de leerse, a la hora de leerse se dice "Sensee".
+            </p>
+            <p tipo="">
+                En la U y la O pasa igual, si dices "Ohayou" en vez de "Ohayoo", está mal(escribir "Ohayo" y "Ohayoo" también está mal.)
+            </p>
+            <p tipo="">
+                Esto no se aplica al revés, por lo que "Ie" se lee "Ie"
+            </p>
+            <p tipo="ta">
+                <tabla class="celdas" celdas="" titulo="">
+                    <tr>
+                        <td>Vocal:</td>
+                        <td>E+I</td>
+                        <td>O+U</td>
+                    </tr>
+                    <tr>
+                        <td>Sonido</td>
+                        <td>EE</td>
+                        <td>OO</td>
+                    </tr>
+                </tabla>
+            </p>
+            <p tipo="">
+                Pequeños consejos de pronunciación y a la hora de entrenar tu oido 
+            </p>
+
+        </subtema>
+        <subtema titulo="Pronunciación y entrener el oído">
+            <p tipo="">
+                Pequeños consejos para mejorar: la U muchas veces no la vas a oir, es noraml, no lo pronuncia. Así que "Watashi desu" se pronuncia "Watashi des". 
+            </p>
+            <p tipo="">
+                "Shi" a veces tampoco se pronuncia: "Deshita" pasa a ser "Deshta".
+            </p>
+            <p tipo="">
+                https://youtu.be/GIkDrHWwWJs El vídeo muestra los sonidos shi, chi, dji y ji.
+            </p>
+            <p tipo="">
+                “Dji” y “Dzu” es una forma de referirse a ぢ y づ, respectivamente. Su lectura sigue siendo “Ji” y “Zu”, respectivamente.
+            </p>
+
+        </subtema>
+        <subtema titulo="Dato cultural">
+            <p tipo="">
+                Algo de cultura: Antes habían más kanas, pero se simplifico y ahora esos otros kanas se llaman “hentai ganas”https://www.youtube.com/watch?v=AkyafbG5ln4 El vídeo lo muestra(habla de más cosas, pero con ver las partes con los actores basta).
+            </p>
+        </subtema>
+        <subtema titulo="Recomendación">
+            <p tipo="">
+                Pasa unas semanas con alguna app de aprender katakanas. Y no vayas por ahí preguntando "¿Cuál es la mejor aplicación para aprender el silabario?" Buscate una que se te acomode. Por ejemplo: hiragana katakana quiz, o Kanji Quest(es un juego para aprender japonés)
+            </p>
+        </subtema>
+    </tema>
+
+</clase>

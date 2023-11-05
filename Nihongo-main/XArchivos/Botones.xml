@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<grados>
+    <grado estado="">
+        1- El ABC del japonés, parte 1
+    </grado>
+    <grado estado="">
+        2- El ABC del japonés, parte 2
+    </grado>
+    <grado estado="y">
+        3- Los Verbos
+    </grado>
+    <grado estado="x">
+        4- Conjugaciones
+    </grado>
+    <grado estado="x">
+        5- Adjetivos
+    </grado>
+    <grado estado="x">
+        6- Adjetivos, conjugaciones
+    </grado>
+    <grado estado="x">
+        7- Profundización-Adjetivos
+    </grado>
+    <grado estado="x">
+        8- Profundizando-Conjugar Adjetivos
+    </grado>
+    <grado estado="x">
+        9- Profundización-Verbos
+    </grado>
+    <grado estado="x">
+        10- Profundizando-Conjugar Verbos
+    </grado>
+    <grado estado="x">
+        11- Profundizando-Silabario(los Kanas) 1
+    </grado>
+    <grado estado="x">
+        12- Profundizando-Silabario(los Kanas) 2
+    </grado>
+    <grado estado="x">
+        13- Pronombres en japonés. 1
+    </grado>
+    <grado estado="x">
+        14- Pronombres-Personales
+    </grado>
+</grados>
