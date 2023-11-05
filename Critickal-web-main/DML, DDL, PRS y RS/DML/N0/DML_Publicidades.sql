@@ -1,0 +1,10 @@
+INSERT INTO PUBLICIDADES (Directorio)
+    VALUE("SPAM/1.png");
+INSERT INTO PUBLICIDADES (Directorio)
+    VALUE("SPAM/2.png");
+INSERT INTO PUBLICIDADES (Directorio)
+    VALUE("SPAM/3.png");
+INSERT INTO PUBLICIDADES (Directorio)
+    VALUE("SPAM/4.png");
+INSERT INTO PUBLICIDADES (Directorio)
+    VALUE("SPAM/5.png");

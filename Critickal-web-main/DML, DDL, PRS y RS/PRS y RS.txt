@@ -1,0 +1,578 @@
+DEPORTES([Nombre], Categoria, Logo, Gori);
+
+PRS-DEPORTES={ATR, DMN, dom}
+
+ATR={Nombre,
+    Categoria,
+    Logo,
+    Gori}
+
+DMN={varchar, char}
+
+dom={Nombre: varchar(18),
+    Categoria: varchar(40),
+    Logo: varchar(30),
+    Gori: char(2)}
+
+RS-DEPORTES={PRS-DEPORTES, M, SC}
+
+M={"Deportes que existen; con su categoría de deporte como deporte motor, deporte de agua, etc, un logo que es la dirección de img y 
+    GORI que es (Gr:Grupal,Ge:Generico,In:Individual)"}
+
+SC={Nombre: PRIMARY KEY,
+    Categoria: NOT NULL,
+
+    Gori: NOT NULL}
+//////////////////////////////////////////////////////////////
+JUGADORES([IDJ], FirstNombre, FirstApellido, Nacimiento, Fallecimiento);
+
+PRS-JUGADORES={ATR, DMN, dom}
+
+ATR={IDJ,
+    FirstNombre,
+    FirstApellido,
+    Nacimiento,
+    Fallecimiento}
+
+DMN={int, varchar, date}
+
+dom={IDJ: int, 
+    FirstNombre: varchar(30),
+    FirstApellido: varchar(45),
+    Nacimiento: date,
+    Fallecimiento: date}
+
+RS-JUGADORES={PRS-JUGADORES, M, SC}
+
+M={"Los jugadores actualmente activos en adelante. También se guarda su fellecimiento"}
+
+SC={IDJ: PRIMARY KEY,
+    FirstNombre: NOT NULL,
+    FirstApellido: NOT NULL,
+    Nacimiento: NOT NULL
+                        }
+//////////////////////////////////////////////////////////////
+REGIONES([IDR], PaísNombre);
+
+PRS-REGIONES={ATR, DMN, dom}
+
+ATR={IDP,
+    PaísNombre}
+
+DMN={int, varchar}
+
+dom={IDP: int,
+    PaísNombre: varchar(20)}
+
+RS-REGIONES={PRS-REGIONES, M, SC}
+
+M={"Paíces, continentes y planetas"}
+
+SC={IDP: PRIMARY KEY,
+    PaísNombre: NOT NULL}
+//////////////////////////////////////////////////////////////
+CIUDADES([IDC], Nombre, IDR_Regiones);
+
+PRS-CIUDADES={ATR, DMN, dom}
+
+ATR={IDC,
+    Nombre,
+    IDR_Regiones}
+
+DMN={int, varchar}
+
+dom={IDC: int,
+    Nombre: varchar(30),
+    IDR_Regiones: int}
+
+RS-CIUDADES={PRS-CIUDADES, M, SC}
+
+M={"Ciudades de los paises "}
+
+SC={IDC: PRIMARY KEY,
+    Nombre: NOT NULL,
+    IDR_Regiones: FOREIGN KEY}
+//////////////////////////////////////////////////////////////
+EQUIPOS([Nombre], Logo, IDC_Ciudades);
+
+PRS-EQUIPOS={ATR, DMN, dom}
+
+ATR={Nombre,
+    Logo,
+    IDC_Ciudades}
+
+DMN={varchar, int}
+
+dom={Nombre: varchar(40),
+    Logo: varchar(30),
+    IDC_Ciudades: int}
+
+RS-EQUIPOS={PRS-EQUIPOS, M, SC}
+
+M={"Nombre de los equipos actualmente existentes y los que se creen a lo largo de los años"}
+
+SC={Nombre: PRIMARY KEY,
+    Logo: NOT NULL,
+    IDC_Ciudades: FOREIGN KEY }
+/***********************RELACION*************************************/
+JUGADORENEQUIPO([IDJ_Jugadores, Nombre_Equipo], Numero, Activo, Titular, Rol, Nombre_Deportes);
+
+PRS-JUGADORENEQUIPO={ATR, DMN, dom}
+
+ATR={IDJ_Jugadores,
+    Nombre_Equipo,
+    Numero,
+    Activo,
+    Titular,
+    Rol,
+    Nombre_Deportes}
+
+DMN={int, varchar, boolean}
+
+dom={IDJ_Jugadores: int,
+    Nombre_Equipo: varchar(40),
+    Numero: int,
+    Activo: boolean,
+    Titular: boolean,
+    Rol: varchar(15),
+    Nombre_Deportes: varchar(18)}
+
+RS-JUGADORENEQUIPO={PRS-JUGADORENEQUIPO, M, SC}
+
+M={"En qué equipo participa cada jugador"}
+
+SC={[IDJ_Jugadores, Nombre_Equipo]: PRIMARY KEY,
+
+    Activo: NOT NULL,
+    Titular: NOT NULL,
+    Rol: NOT NULL,
+    IDJ_Jugadores: FOREIGN KEY,
+    Nombre_Deportes: FOREIGN KEY}
+//////////////////////////////////////////////////////////////
+TORENOS([IDT], Nombre, Año, IDC_Ciudades);
+
+PRS-TORENOS={ATR, DMN, dom}
+
+ATR={IDT,
+    Nombre,
+    Año,
+    IDC_Ciudades}
+
+DMN={int, varchar, date}
+
+dom={IDT: int,
+    Nombre: varchar(25),
+    Año: year,
+    IDC_Ciudades: int}
+
+RS-TORENOS={PRS-TORENOS, M, SC}
+
+M={"Los torenos, donde están y qué partidos poseen"}
+
+SC={IDT: PRIMARY KEY,
+    Nombre: NOT NULL,
+    Año: NOT NULL,
+    IDC_Ciudades: FOREIGN KEY}
+//////////////////////////////////////////////////////////////
+ESTADIOS([IDE], Nombre, IDC_Ciudades);
+
+PRS-ESTADIOS={ATR, DMN, dom}
+
+ATR={IDE, 
+    Nombre}
+
+DMN={int, varchar}
+
+dom={IDE: int, 
+    Nombre: varchar(50),
+    IDC_Ciudades: int}
+
+RS-ESTADIOS={PRS-ESTADIOS, M, SC}
+
+M={"Estadios donde pueden ocurrir partidos"}
+
+SC={IDE: PRIMARY KEY,
+    Nombre: NOT NULL,
+    IDC_Ciudades: FOREIGN KEY}
+//////////////////////////////////////////////////////////////
+PARTIDOS([IDP], Day, IDE_Estadios, IDT_Torenos);
+
+PRS-PARTIDOS={ATR, DMN, dom}
+
+ATR={IDP,
+    Day,
+    IDE_Estadios,
+    IDT_Torenos,
+    IDC_Ciudades}
+
+DMN={int, varchar, year}
+
+dom={IDP: int,
+    Day: date,
+    IDE_Estadios: int,
+    IDT_Torenos: int}
+
+RS-PARTIDOS={PRS-PARTIDOS, M, SC}
+
+M={"Partidos ocurridos y que se saben cuando ocurrirán"}
+
+SC={IDP: PRIMARY KEY,
+    Time: NOT NULL,
+    IDE_Estadios: FOREIGN KEY,
+    IDT_Torenos: FOREIGN KEY}
+/***********************RELACION*************************************/
+ALINEADOSPARA([IDJ_JugadorEnEquipo, Nombre_JugadorEnEquipo, IDP_Partidos, Day_Partidos], Alineación);
+
+PRS-ALINEADOSPARA={ATR, DMN, dom}
+
+ATR={IDJ_JugadorEnEquipo,
+    Nombre_JugadorEnEquipo,
+    IDP_Partidos,
+    Day_Partidos,
+    Alineacion}
+
+DMN={int, varchar, Date}
+
+dom={IDJ_JugadorEnEquipo: int,
+    Nombre_JugadorEnEquipo: varchar(40),
+    IDP_Partidos: int,
+    Day_Partidos: date,
+    Alineacion: varchar(35)}
+
+RS-ALINEADOSPARA={PRS-ALINEADOSPARA, M, SC}
+
+M={"¿Cuál es la alineación de tal jugador, en tal equipo en tal partido?"}
+
+SC={[IDJ_JugadorEnEquipo, Nombre_JugadorEnEquipo, IDP_Partidos, Day_Partidos]: PRIMARY KEY,
+    Alineación: NOT NULL,
+    IDJ_JugadorEnEquipo: FOREIGN KEY,
+    Nombre_JugadorEnEquipo: FOREIGN KEY,
+    IDP_Partidos: FOREIGN KEY,
+    Day_Partidos: FOREIGN KEY}
+//////////////////////////////////////////////////////////////
+SUCESOS([IDS], Nombre, Momento, Hora, IDJ_AlineadosPara, Nombre_AlineadosPara, IDP_AlineadosPara);
+
+PRS-SUCESOS={ATR, DMN, dom}
+
+ATR={IDS,
+    Nombre,
+    Hora,
+    IDJ_AlineadosPara,
+    Nombre_AlineadosPara,
+    IDP_AlineadosPara}
+
+DMN={int, varchar, dateTime}
+
+dom={IDS: int,
+    Nombre: varchar(60),
+    Momento: varchar(20),
+    Hora: dateTime,
+    IDJ_AlineadosPara: int,
+    Nombre_AlineadosPara: varchar(40),
+    IDP_AlineadosPara: int}
+
+RS-SUCESOS={PRS-SUCESOS, M, SC}
+
+M={"SUCESOS ocurridos y que se saben cuando ocurrirán"}
+
+SC={IDS: PRIMARY KEY,
+    Nombre: NOT NULL,
+    Momento: NOT NULL,
+    Hora: NOT NULL,
+    IDJ_AlineadosPara: FOREIGN KEY,
+    Nombre_AlineadosPara: FOREIGN KEY,
+    IDP_AlineadosPara: FOREIGN KEY}
+/***********************CATEGORIZACIÓN*************************************/
+EVENTOS([IDS_Sucesos], Evento);
+
+PRS-EVENTOS={ATR, DMN, dom}
+
+ATR={IDS_Sucesos, Evento}
+
+DMN={int, varchar}
+
+dom={IDS_Sucesos: int,
+    Evento: varchar(150)}
+
+RS-EVENTOS={PRS-EVENTOS, M, SC}
+
+M={"Sucesos como: iniciar, terminar, pausa, medio tiempo, viento, lluvia, accidentes, faltas, Safty Car, etc"}
+
+SC={[IDS_Sucesos]: PRIMARY KEY,
+    Evento: NOT NULL,
+    [IDS_Sucesos]: FOREIGN KEY}
+/***********************CATEGORIZACIÓN*************************************/
+PUNTOS([IDS_Sucesos], Puntos);
+
+PRS-PUNTOS={ATR, DMN, dom}
+
+ATR={IDS_Sucesos,
+    Puntos}
+
+DMN={int, varchar}
+
+dom={IDS_Sucesos: int,
+    Puntos: int}
+
+RS-PUNTOS={PRS-PUNTOS, M, SC}
+
+M={"Sucesos de tipo Puntos. Si metes un GOL: 1 punto, si metes un triple: 3 puntos"}
+
+SC={[IDS_Sucesos]: PRIMARY KEY,
+    Puntos: NOT NULL,
+    [IDS_Sucesos]: FOREIGN KEY}
+/***********************CATEGORIZACIÓN*************************************/
+GOLPEADOPOR([IDS_Golpeado_Sucesos, IDS_Golpeador_Sucesos]);
+
+PRS-GOLPEADOPOR={ATR, DMN, dom}
+
+ATR={IDS_Golpeado_Sucesos,
+    IDS_Golpeador_Sucesos}
+
+DMN={int}
+
+dom={IDS_Golpeado_Sucesos: int,
+    IDS_Golpeador_Sucesos: int}
+
+RS-GOLPEADOPOR={PRS-GOLPEADOPOR, M, SC}
+
+M={"Sucesos de tipo Alguien golpea a tal otra persona; Por accidente o intencionalmente"}
+
+SC={[IDS_Golpeado_Sucesos, IDS_Golpeador_Sucesos]: PRIMARY KEY,
+    [IDS_Golpeado_Sucesos, IDS_Golpeador_Sucesos]: FOREIGN KEY}
+//////////////////////////////////////////////////////////////
+SUSCRIPCIONES([Tipo], Precio, Plazo, Descripcion);
+
+PRS-SUSCRIPCIONES={ATR, DMN, dom}
+
+ATR={Tipo,
+    Precio,
+    Plazo,
+    Descripcion}
+
+DMN={int,varchar}
+
+dom={Tipo: int,
+    Precio: int,
+    Plazo: int,
+    Descripcion: varchar(250)}
+
+RS-SUSCRIPCIONES={PRS-SUSCRIPCIONES, M, SC}
+
+M={"Pagar por MES, AÑO, 3 AÑOS, ETC. Tú eliges"}
+
+SC={Tipo: PRIMARY KEY,
+    Precio: NOT NULL,
+    Plazo: NOT NULL,
+    Descripcion: NOT NULL}
+//////////////////////////////////////////////////////////////
+USUARIOS([IDU], Correo, Contraseña, Nombre, FTPerfil, Tipo_Suscripciones);
+
+PRS-USUARIOS={ATR, DMN, dom}
+
+ATR={IDU,
+    Correo,
+    Contraseña,
+    Nombre,
+    FTPerfil,
+    Tipo_Suscripciones}
+
+DMN={int, varchar}
+
+dom={IDU: int,
+    Correo: varchar(50),
+    Contraseña: char(32),
+    Nombre: varchar(30),
+    FTPerfil: varchar(30),
+    Tipo_Suscripciones: int}
+
+RS-USUARIOS={PRS-USUARIOS, M, SC}
+
+M={"Los usuarios registrados. Sólo los registrados"}
+
+SC={IDU: PRIMARY KEY,
+    Correo: NOT NULL,
+    Contraseña: NOT NULL,
+    Nombre: NOT NULL,
+    FTPerfil: NOT NULL,
+    Tipo_Suscripciones: FOREIGN KEY}
+/***********************RELACION*************************************/
+SUSCRIPCIONUSER([IDU_Usuarios, Tipo_Suscripciones], suscrito);
+
+PRS-SUSCRIPCIONUSER={ATR, DMN, dom}
+
+ATR={IDU_Usuarios, Tipo_Suscripciones}
+
+DMN={int, dateTime}
+
+dom={IDU_Usuarios: int,
+    Tipo_Suscripciones: int,
+    suscrito: dateTime}
+
+RS-USUARIOS={PRS-SUSCRIPCIONUSER, M, SC}
+
+M={"Qué usuarios están suscritos a qué suscripción y cuando lo hicieron"}
+
+SC={[IDU_Usuarios, Tipo_Suscripciones]: PRIMARY KEY,
+    suscrito: NOT NULL
+    [IDU_Usuarios, Tipo_Suscripciones]: FOREIGN KEY}
+/***********************RELACION*************************************/
+USERSIGUEUSER([IDU_Seguidor_Usuarios, IDU_Seguido_Usuarios]);
+
+PRS-USERSIGUEUSER={ATR, DMN, dom}
+
+ATR={IDU_Seguidor_Usuarios, IDU_Seguido_Usuarios}
+
+DMN={int}
+
+dom={IDU_Seguidor_Usuarios: int,
+    IDU_Seguido_Usuarios: int}
+
+RS-USUARIOS={PRS-USERSIGUEUSER, M, SC}
+
+M={"¿Qué usuarios siguen a otros usuarios y cuales son?"}
+
+SC={[IDU_Seguidor_Usuarios, IDU_Seguido_Usuarios]: PRIMARY KEY,
+    [IDU_Seguidor_Usuarios, IDU_Seguido_Usuarios]: FOREIGN KEY}
+/***********************RELACION*************************************/
+USERSIGUEPARTIDO([IDU_Usuarios, IDP_Partidos]);
+
+PRS-USERSIGUEPARTIDO={ATR, DMN, dom}
+
+ATR={IDU_Usuarios, IDP_Partidos}
+
+DMN={int}
+
+dom={IDU_Usuarios: int,
+    IDP_Partidos: int}
+
+RS-USUARIOS={PRS-USERSIGUEPARTIDO, M, SC}
+
+M={"¿Qué partidos siguen los usuarios?"}
+
+SC={[IDU_Usuarios, IDP_Partidos]: PRIMARY KEY,
+    [IDU_Usuarios, IDP_Partidos]: FOREIGN KEY}
+/***********************RELACION*************************************/
+USERSIGUEEQUIPO([IDU_Usuarios, Nombre_Equipos]);
+
+PRS-USERSIGUEEQUIPO={ATR, DMN, dom}
+
+ATR={IDU_Usuarios, Nombre_Equipos}
+
+DMN={int, varchar}
+
+dom={IDU_Usuarios: int,
+    Nombre_Equipos: varchar(40)}
+
+RS-USUARIOS={PRS-USERSIGUEEQUIPO, M, SC}
+
+M={"¿Qué equipos siguen los usuarios?"}
+
+SC={[IDU_Usuarios, Nombre_Equipos]: PRIMARY KEY,
+    [IDU_Usuarios, Nombre_Equipos]: FOREIGN KEY}
+/***********************RELACION*************************************/
+USERSIGUEJUGADOR([IDU_Usuarios, IDJ_Jugadoreses]);
+
+PRS-USERSIGUEJUGADOR={ATR, DMN, dom}
+
+ATR={IDU_Usuarios, IDJ_Jugadoreses}
+
+DMN={int}
+
+dom={IDU_Usuarios: int,
+    IDJ_Jugadoreses: int}
+
+RS-USUARIOS={PRS-USERSIGUEJUGADOR, M, SC}
+
+M={"¿Qué jugadores siguen los usuarios?"}
+
+SC={[IDU_Usuarios, IDJ_Jugadoreses]: PRIMARY KEY,
+    [IDU_Usuarios, IDJ_Jugadoreses]: FOREIGN KEY}
+/***********************RELACION*************************************/
+USERESPECULAPARTIDO([IDU_Usuarios, IDJ_AlineadosPara, Nombre_AlineadosPara, IDP_AlineadosPara]);
+
+PRS-USERESPECULAPARTIDO={ATR, DMN, dom}
+
+ATR={IDU_Usuarios, IDJ_AlineadosPara, Nombre_AlineadosPara, IDP_AlineadosPara}
+
+DMN={int, varchar}
+
+dom={IDU_Usuarios: int,
+    IDJ_AlineadosPara: int,
+    Nombre_AlineadosPara: varchar(40),
+    IDP_AlineadosPara: int}
+
+RS-USUARIOS={PRS-USERESPECULAPARTIDO, M, SC}
+
+M={"¿Qué jugadores siguen los usuarios?"}
+
+SC={[IDU_Usuarios, IDJ_AlineadosPara, Nombre_AlineadosPara, IDP_AlineadosPara]: PRIMARY KEY,
+    [IDU_Usuarios, IDJ_AlineadosPara, Nombre_AlineadosPara, IDP_AlineadosPara]: FOREIGN KEY}
+//////////////////////////////////////////////////////////////
+ETIQUETAS([Etiqueta]);
+
+PRS-ETIQUETAS={ATR, DMN, dom}
+
+ATR={Etiqueta}
+
+DMN={varchar}
+
+dom={Etiqueta: varchar(12)}
+
+RS-USUARIOS={PRS-ETIQUETAS, M, SC}
+
+M={"¿Qué jugadores siguen los usuarios?"}
+
+SC={[Etiqueta]: PRIMARY KEY}
+/***********************RELACION*************************************/
+USERSIGUEETIQUETA([IDU_Usuarios, Etiqueta_Etiquetas]);
+
+PRS-USERSIGUEETIQUETA={ATR, DMN, dom}
+
+ATR={IDU_Usuarios, Etiqueta_Etiquetas}
+
+DMN={int, varchar}
+
+dom={IDU_Usuarios: int,
+    Etiqueta_Etiquetas: varchar(12)}
+
+RS-USUARIOS={PRS-USERSIGUEETIQUETA, M, SC}
+
+M={"¿Qué jugadores siguen los usuarios?"}
+
+SC={[IDU_Usuarios, Etiqueta_Etiquetas]: PRIMARY KEY,
+    [IDU_Usuarios, Etiqueta_Etiquetas]: FOREIGN KEY}
+//////////////////////////////////////////////////////////////
+PUBLICIDADES([Directorio]);
+
+PRS-PUBLICIDADES={ATR, DMN, dom}
+
+ATR={Directorio}
+
+DMN={varchar}
+
+dom={Directorio: varchar(40)}
+
+RS-USUARIOS={PRS-PUBLICIDADES, M, SC}
+
+M={"¿Qué jugadores siguen los usuarios?"}
+
+SC={[Directorio]: PRIMARY KEY}
+/***********************RELACION*************************************/
+ETIQUETADEPUBLICIDAD([Etiqueta_Etiquetas, Directorio_Publicidades]);
+
+PRS-USERSIGUEETIQUETA={ATR, DMN, dom}
+
+ATR={Etiqueta_Etiquetas, Directorio_Publicidades}
+
+DMN={int, varchar}
+
+dom={Etiqueta_Etiquetas: varchar(12),
+    Directorio_Publicidades: varchar(40)}
+
+RS-USUARIOS={PRS-USERSIGUEETIQUETA, M, SC}
+
+M={"¿Qué jugadores siguen los usuarios?"}
+
+SC={[Etiqueta_Etiquetas, Directorio_Publicidades]: PRIMARY KEY,
+    [Etiqueta_Etiquetas, Directorio_Publicidades]: FOREIGN KEY}

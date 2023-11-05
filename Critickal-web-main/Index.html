@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+<!--LinksS-->
+	<link rel="shortcut icon" href="IMG/LOGO/logoPagina.jpg">
+	<link rel="stylesheet" href="CSS/EXTERNOS/bootstrap.min.css" >
+
+
+<!--Scripts-->
+<script src="JS/EXTERNOS/bootstrap.min.js" ></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+</head>
+<body>
+    <form>
+        <input type="text" id="Correo_Registrar"      placeholder="Correo">
+        <input type="text" id="Contraseña_Registrar"  placeholder="Contraseña">
+        <input type="text" id="Nombre_Registrar"      placeholder="Nombre">
+        <input type="date" id="Nacimiento_Registrar"  placeholder="Nacimiento">
+        <input type="button" value="Enviar variable" id="registrar" class="btn btn-primary">
+    </form>
+
+    <form>
+        <input type="text" id="Correo_Buscar"      placeholder="Correo">
+        <input type="text" id="Contraseña_Buscar"  placeholder="Contraseña">
+        <input type="button" value="Enviar variable" id="buscar" class="btn btn-primary">
+    </form>
+
+    <!--
+        Necesito formularios que manden información a los PHP o Botones que ejecuten Scripts
+
+    -Subir información: Usar el Register_O_VERBO: registrar[hay que adaptarlo según tabla]
+    -Registrar        : Usar el Register_O_VERBO: registrar
+    -Logear           : Usar el Login_X_        
+    -Pedir información: Usar el Backend con el JS_O_VERBO: buscar[hay que adaptarlo para conseguir partido]
+    -Presentar        : Usar el Backend con el JS_O_VERBO: buscar[hay que adaptarlo para pedir partido/jugador/equipo]
+    -Buscar           : Crear _O_VERBO: buscar[hay que adaptar para pedir información de todas las tablas]
+
+        -Preservar información de pagina a pagina
+    -->
+    
+</body>
+<script type="text/javascript" src="js/verbos.js"></script>
+</html>
