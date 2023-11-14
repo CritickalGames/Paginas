@@ -1,0 +1,19 @@
+const PA = "p",
+  H1 = "h1",
+  H2 = "h2",
+  H3 = "h3",
+  DIV = "div",
+  TABLE = "table",
+  TABLA = "tabla",
+  TH = "th",
+  TR = "tr",
+  TD = "td",
+  SECT = "section",
+  ART = "article";
+const TITULO = "titulo",
+  TIPO = "tipo";
+const STYLE = "style",
+  BG_COLOR = "background-color: ";
+const IDSELECTOR = "articulos",
+  IDMAIN = "contenido";
+let p, p1, h1, h2, h3, div, tablo, th, tr, td;
