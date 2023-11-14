@@ -1,22 +1,50 @@
-import {manipularHTML as JsHTML} from "./js"
-import {etiquetasConst as etiqueta} from "./js"
 window.addEventListener("load", main);
 
+import * as Xson from "./json.js";
+import * as cst from "./variablesConstates.js";
+import * as etikedo from "./manipularHTML.js";
+
+function consola(params) {
+  console.log(params)
+}
+
+function abrirJson(JS) {
+  return Xson.abrirJson(JS)
+    .then((resultado) => {
+      return((resultado));
+    })
+    .catch((error) => {
+        console.error(error);
+    });
+}
+
 function main() {  
-  insertarBotonesXML();
+  insertarClasesEnHeader();
 }
 
+async function insertarClasesEnHeader() {
+  try {
+    const arch = await abrirJson("Botones");
+    const grados = await arch.grados
+    const lista = etikedo.troviIdn(cst.IDSELECT);
 
-function insertarBotonesXML() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function () {
-    if (this.readyState == 4 && this.status == 200) {
-      insertarOption(this);
+    for(let index = 0; index < grados.length; index++){
+      const grado =grados[index]
+      const opcion = etikedo.fari(cst.OP)
+      etikedo.almetiTekston(opcion, grado[0]);
+      etikedo.almetiAtributon(opcion, "value", grado[1])
+      etikedo.almetiFilon(lista, opcion)
     }
-  };
-  xhttp.open("GET", "Xarchivos/Botones.xml", true);
-  xhttp.send();
+    console.log(lista)
+
+  } catch (error) {
+    console.error('Error al abrir el archivo JSON:', error);
+  }
 }
+
+
+
+/*
 
 function insertarOption(xml) {
   const xmlDoc = xml.responseXML;
@@ -68,4 +96,4 @@ function insertarXMLClases(archivo) {
   };
   xhttp.open("GET", archivo, true);
   xhttp.send();
-}
+}*/
