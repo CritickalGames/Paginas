@@ -45,10 +45,11 @@ async function insertarClasesEnHeader() {
     const LISTA = etikedo.troviIdn(cst.IDSELECT);
 
     for(let index = 0; index < GRADOS.length; index++){
-      const grado =GRADOS[index]
-      const opcion = etikedo.krei(cst.OP)
-      etikedo.almetiTekston(opcion, grado[0]);
-      etikedo.almetiAtributon(opcion, "value", grado[1])
+      const grado =GRADOS[index];
+      const key = Object.keys(grado);
+      const opcion = etikedo.krei(cst.OP);
+      etikedo.almetiTekston(opcion, key);
+      etikedo.almetiAtributon(opcion, "value", grado.key)
       etikedo.almetiFilon(LISTA, opcion)
     }
   } catch (error) {
@@ -61,9 +62,9 @@ async function insertarClasesEnHeader() {
 async function abrirClase(OPCION) {
   const ARCH = await abrirJson(OPCION);
   const LECCION = await ARCH;
-  const TEMA = etikedo.troviIdn(cst.IDTEMA);
+  const SECTION = etikedo.troviIdn(cst.IDTEMA);
   /*Limpiar sections*/
-  limpiar(TEMA);
+  limpiar(SECTION);
   /*Conseguir las etiquetas[0], crear las etiquetas, agregar nodo de texto[1]*/
   /* ":3 = Hecho", ":/ = No Logrado", "Cada carita significa una sección de lo pedido"
       x/y Y es la cantidad de secciones necesarias
@@ -102,11 +103,11 @@ async function abrirClase(OPCION) {
       const ATRIBUTOS = CONTENIDO[1];//7.1 [agregar atributos]
       const INFORMACION = CONTENIDO[2];//8.1 [Recorrer array, almeti on]
       const objtHTML=tipoEtiqueta(ETIQUETA, ATRIBUTOS, INFORMACION); //5.1 {distinguir etiqueta}
-      consola(CONTENIDO)
+      etikedo.almetiFilon(article, objtHTML);
     }//4.4/4{agregar contenido} //5.1 {completar tareas}
-
+    consola(article);
+    etikedo.almetiFilon(SECTION, article);
   }
-
 }
 //abrirClase
 function limpiar(tema) {
@@ -124,10 +125,8 @@ function tipoEtiqueta(etiqueta, atributos, informacion) {
       return crearP(objtHTML, informacion);//No necesita titulo
     case cst.TABLA:
       return crearTabla(objtHTML,TITULO, informacion);
-      break;
     case cst.DIV:
       return crearDiv(objtHTML,TITULO, informacion);
-  
     default:
       break;
   }
@@ -145,24 +144,40 @@ function crearP(etiqueta, informacion) {
 }
 //tipoEtiqueta
 function crearTabla(etiqueta,titulo, informacion) {
-  const TR = informacion.tr;
-  for (let index = 0; index < TR.length; index++) {
-    const COLUMNA = TR[index];
-    switch (key) {
-      case value:
-        
-        break;
-    
-      default:
-        break;
-    }    
+  const FILAS = informacion.tr;
+  for (let index = 0; index < FILAS.length; index++) {
+    const TR = etikedo.krei("tr");
+    const COLUMNA = FILAS[index];
+    for (let index = 0; index < COLUMNA.length; index++) {
+      consola("INICIO")
+      const key = Object.keys(COLUMNA[index]);
+      const T_DH=etikedo.krei(key);
+      const VALOR = COLUMNA[index][key];
+      if (key == "th") {
+          const H1 = etikedo.krei(cst.H1);
+          etikedo.almetiTekston(H1, titulo);
+          etikedo.almetiFilon(T_DH, H1);
+      }else{
+          etikedo.almetiTekston(T_DH, VALOR);
+      }
+      etikedo.almetiFilon(TR, T_DH);
+    }
+    consola(TR)
+    etikedo.almetiFilon(etiqueta, TR);
   }
   return etiqueta;
 }
 //tipoEtiqueta
-function crearDiv(etiqueta,titulo, informacion) {
-  
-  return etiqueta;
+function crearDiv(objtHTML,titulo, informacion) {
+  const CONTENIDO = informacion.contenido
+  for (let index = 0; index < CONTENIDO.length; index++) {
+    const ETIQUETA = CONTENIDO[index][0];
+    const ATRIBUTOS= CONTENIDO[index][1];
+    const INFORMACION= CONTENIDO[index][2];
+    const objtHTML2=tipoEtiqueta(ETIQUETA, ATRIBUTOS, INFORMACION);
+    etikedo.almetiFilon(objtHTML, objtHTML2);
+  }
+  return objtHTML;
 }
 
 /*
