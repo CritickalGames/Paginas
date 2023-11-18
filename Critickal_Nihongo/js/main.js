@@ -52,11 +52,18 @@ async function insertarClasesEnHeader() {
       etikedo.almetiAtributon(opcion, "value", grado.key)
       etikedo.almetiFilon(LISTA, opcion)
     }
+
   } catch (error) {
-    console.error('Error al abrir el archivo JSON:', error);
+    console.error('Error al abrir el archivo JSON:\n\n', error);
   }
-  const primeraPagina = etikedo.troviIdn(cst.IDSELECT).value;
-  await abrirClase(primeraPagina) //Cuando cargue, cargará la pagina inicial.
+  
+  try{
+    const primeraPagina = etikedo.troviIdn(cst.IDSELECT).value;
+    await abrirClase(primeraPagina) //Cuando cargue, cargará la pagina inicial.
+  }catch(error){
+    console.error('Error al cargar la primera página:\n\n', error);
+  }
+  
 }
 //Llamado en Insertar y Seleccionar
 async function abrirClase(OPCION) {
@@ -65,47 +72,29 @@ async function abrirClase(OPCION) {
   const SECTION = etikedo.troviIdn(cst.IDTEMA);
   /*Limpiar sections*/
   limpiar(SECTION);
-  /*Conseguir las etiquetas[0], crear las etiquetas, agregar nodo de texto[1]*/
-  /* ":3 = Hecho", ":/ = No Logrado", "Cada carita significa una sección de lo pedido"
-      x/y Y es la cantidad de secciones necesarias
-      [pendientes], {hechos}
-    La "clase" es el titulo del section.1.:3 x/2
-    El "titulo" del tema debe ser el subtitulo del section.2 :3 x/2
-    Cada posición de "subtemas" es un article.3 :3 x/3
-      El "titulo" debe ser titulo del articulo. Si no hay, no hay.4 :3 :3 :3 x/4
-      Cada posición del "contenido" es una etiqueta.5 x/1 [completar tareas]
-        La "posición 0" es la etiqueta a crear.6 :3 x/2
-        La "posición 1" son los atributos.7 :3 x/2
-        La "posición 2" es el contenido.8 :3 x/3 [obtener, completar tareas, almeti]
-          Cada "posición" es una etiqueta.9
-            La "posición 0" es la etiqueta.10
-            La "posición 1" es el contenido.11
-            Si la "posición" es un array,12
-              cada posición interna es una etiqueta que sigue las normas anteriores.13
-  */
-  const TITULO_CLASE = LECCION.clase;//1.1
-  const TIUTLO_TEMA = LECCION.tema.titulo;//2.1
-  const SUBTEMAS = LECCION.tema.subtemas;//3.1 [recorrer,hacer los internos]
+  const TITULO_CLASE = LECCION.clase;
+  const TIUTLO_TEMA = LECCION.tema.titulo;
+  const SUBTEMAS = LECCION.tema.subtemas;
 
   for (let index = 0; index < SUBTEMAS.length; index++) {
     let article="";//4 aún no es un articulo
     const SUBTEMA = SUBTEMAS[index];
-    if (SUBTEMA.titulo.length > 0) {//4.1 [agregar contenido]
-      article= etikedo.krei("article");//4.2
+    if (SUBTEMA.titulo.length > 0) {
+      article= etikedo.krei("article");
       const H1= etikedo.krei(cst.H1);
-      etikedo.almetiTekston(H1, SUBTEMA.titulo);//4.3
-      etikedo.almetiFilon(article, H1);//4.3
-    }//4.3/4 {compruebo si hay titulo, creo articulo, agrego titulo}
+      etikedo.almetiTekston(H1, SUBTEMA.titulo);
+      etikedo.almetiFilon(article, H1);
+    }
 
-    for (let indexJ = 0; indexJ < SUBTEMA.contenido.length; indexJ++) {//4.4
+    for (let indexJ = 0; indexJ < SUBTEMA.contenido.length; indexJ++) {
       const CONTENIDO = SUBTEMA.contenido[indexJ];
-      const ETIQUETA = CONTENIDO[0];//6.1 [crear etiqueta]
-      const ATRIBUTOS = CONTENIDO[1];//7.1 [agregar atributos]
-      const INFORMACION = CONTENIDO[2];//8.1 [Recorrer array, almeti on]
-      const objtHTML=tipoEtiqueta(ETIQUETA, ATRIBUTOS, INFORMACION); //5.1 {distinguir etiqueta}
+      const ETIQUETA = CONTENIDO[0];
+      const ATRIBUTOS = CONTENIDO[1];
+      const INFORMACION = CONTENIDO[2];
+      const objtHTML=tipoEtiqueta(ETIQUETA, ATRIBUTOS, INFORMACION);
       etikedo.almetiFilon(article, objtHTML);
-    }//4.4/4{agregar contenido} //5.1 {completar tareas}
-    consola(article);
+    }
+    consola(article)
     etikedo.almetiFilon(SECTION, article);
   }
 }
@@ -149,7 +138,6 @@ function crearTabla(etiqueta,titulo, informacion) {
     const TR = etikedo.krei("tr");
     const COLUMNA = FILAS[index];
     for (let index = 0; index < COLUMNA.length; index++) {
-      consola("INICIO")
       const key = Object.keys(COLUMNA[index]);
       const T_DH=etikedo.krei(key);
       const VALOR = COLUMNA[index][key];
@@ -162,7 +150,6 @@ function crearTabla(etiqueta,titulo, informacion) {
       }
       etikedo.almetiFilon(TR, T_DH);
     }
-    consola(TR)
     etikedo.almetiFilon(etiqueta, TR);
   }
   return etiqueta;
