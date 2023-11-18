@@ -21,9 +21,7 @@
                     ["div",{"class":"", "titulo":"","color":""},
                         {"contenido":
                             [
-                                ["p",{"class":"", "titulo":"", "color":""},
-                                    {"contenido":"Subtema1, contenido div"}
-                                ]
+                                ["p","contenido"]
                             ]
                         }
                     ]
