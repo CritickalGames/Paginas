@@ -1,26 +1,26 @@
 //Etiquetas
 export const PA = "p",
-  H1 = "h1",
-  H2 = "h2",
-  H3 = "h3",
-  DIV = "div",
-  TABLA = "table",
-  TBODY = "tbody",
-  TH = "th",
-  TR = "tr",
-  TD = "td",
-  SECT = "section",
-  ART = "article",
-  OP = "option",
-  P= "p"
+  E_H1 = "h1",
+  E_H2 = "h2",
+  E_H3 = "h3",
+  E_DIV = "div",
+  E_TABLA = "table",
+  E_TBODY = "tbody",
+  E_TH = "th",
+  E_TR = "tr",
+  E_TD = "td",
+  E_SECT = "section",
+  E_ART = "article",
+  E_OP = "option",
+  E_P= "p";
 // IDj
-export const IDSELECT = "clases", IDTEMA = "tema", 
-  IDMAIN = "contenido";
+export const ID_SELECT = "clases", ID_SECTION = "tema", 
+  ID_MAIN = "contenido";
+
+//ATRIBUTOS
+export const ATR_VALUE= "value";
 
 //Aún no recuerdo
-export const TITULO = "titulo",
-  TIPO = "tipo";
-export const STYLE = "style",
-  BG_COLOR = "background-color: ";
+export const ATR_JSON_CLASE= "class", ATR_JSON_TITULO = "titulo", ATR_JSON_COLOR = "color";
 
 export let p, p1, h1, h2, h3, div, tablo, th, tr, td;

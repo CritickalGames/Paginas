@@ -1,7 +1,7 @@
 {
-    "clase": "titulo1",
+    "titulo_clase": "titulo1",
     "tema":{
-        "titulo":"titulo del tema. Ejemplo: Alfabeto",
+        "titulo_tema":"titulo del tema. Ejemplo: Alfabeto",
         "subtemas":[
             {
                 "titulo":"subTema1",
@@ -12,7 +12,7 @@
                     ["table",{"class":"", "titulo":"", "color":""}
                         ,{"tr":
                             [
-                                [{"td":"tabla titulo"}],
+                                [{"th":"tabla titulo"}],
                                 [{"td":"contenido"}, {"td":"contenido"}],
                                 [{"td":"contenido"}, {"td":"contenido"}, {"td":"contenido"}]
                             ]

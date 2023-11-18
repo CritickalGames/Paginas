@@ -1,13 +1,16 @@
-export function almetiAtributon(etiqueta, atributo, valor){
-    return etiqueta.setAttribute(atributo, valor);
+export function almetiAtributon(objHTML, atributo, valor){
+    objHTML.setAttribute(atributo, valor);
+    return objHTML
 }
 
-export function almetiFilon(patro, filo) {
-    return patro.appendChild(filo)
+export function almetiFilon(filo, patro) {
+    patro.appendChild(filo)
+    return patro;
 }
 
-export function almetiTekston(etiqueta, txt) {
-    return almetiFilon(etiqueta, kreiNodon(txt))
+export function almetiTekston(objHTML, txt) {
+    almetiFilon(kreiNodon(txt), objHTML)
+    return objHTML;
 }
 
 export function krei(etiqueta) {
