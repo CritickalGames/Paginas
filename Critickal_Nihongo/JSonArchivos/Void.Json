@@ -1,0 +1,49 @@
+{
+    "clase": "titulo1",
+    "tema":{
+        "titulo":"titulo del tema. Ejemplo: Alfabeto",
+        "subtemas":[
+            {
+                "titulo":"subTema1",
+                "contenido":[
+                    ["p",{"class":"1", "titulo":"", "color":"rojo"},
+                        {"contenido":"parrafo del subtema 1"}
+                    ],
+                    ["table",{"class":"", "titulo":"", "color":""}
+                        ,{"tr":
+                            [
+                                [{"td":"tabla titulo"}],
+                                [{"td":"contenido"}, {"td":"contenido"}],
+                                [{"td":"contenido"}, {"td":"contenido"}, {"td":"contenido"}]
+                            ]
+                        }
+                    ],
+                    ["div",{"class":"", "titulo":"","color":""},
+                        {"contenido":
+                            [
+                                ["p","contenido"]
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "titulo":"subTema2",
+                "contenido":[
+                    ["p",{"class":"", "titulo":"", "color":""},
+                        {"contenido":""}
+                    ],
+                    ["p",{"class":"", "titulo":"", "color":""},
+                        {"contenido":""}
+                    ],
+                    ["p",{"class":"", "titulo":"", "color":""},
+                        {"contenido":""}
+                    ],
+                    ["p",{"class":"", "titulo":"", "color":""},
+                        {"contenido":""}
+                    ]
+                ]
+            }
+        ]
+    }
+}

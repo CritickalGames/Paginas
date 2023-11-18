@@ -36,6 +36,11 @@ main {
     position: relative; /* Añade esta propiedad */
 }
 
+div.navbar{
+    --bs-navbar-padding-y: 0px;
+    border: 0px solid black;
+}
+
 section {
     overflow: hidden;
 }
@@ -61,6 +66,10 @@ header {
 p {
     text-indent: 1.2em;
     font-size: large;
+}
+
+section{
+    padding-right: 10px;
 }
 
 select {
@@ -202,7 +211,7 @@ body {
 }
 
 div {
-    border: 1px solid black;
+    border: 1x solid black;
 }
 
 table {
@@ -265,3 +274,5 @@ body {
 .Amarillo {
     background-color: #FFFF00;
 }
+
+
