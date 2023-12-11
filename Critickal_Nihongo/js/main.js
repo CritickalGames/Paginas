@@ -53,13 +53,13 @@ async function insertarOptionsEnSection() {
       etikedo.aldoniFilon(OBJ_OPTION, OBJ_SELECT);
     }
   } catch (error) {
-    consola("falló 'ABRIRJSON()'\n\n"+error);
+    consola(error);
   }
 
   try {
     await seleccionarClase();
   } catch (error) {
-    consola("falló 'CARGARCLASE()'\n\n"+error);
+    consola(error);
   }
 }
 
