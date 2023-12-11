@@ -41,10 +41,9 @@ async function seleccionarClase() {
 }
 
 async function insertarOptionsEnSection() {
-  try {
-    fetch('./JSonArchivos/1-Japones.json').then(response => response.json())
+  fetch('./JSonArchivos/1-Japones.json').then(response => response.json())
     .then(data => console.log(data)).catch(error => console.error('Error:'+error));
-
+  try {
     const OBJ_SELECT = etikedo.troviIdn(cst.ID_SELECT);
     const ARCH = await abrirJson("Botones");
     const CLASES = ARCH.clases;
