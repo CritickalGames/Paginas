@@ -18,21 +18,12 @@ function abrirJson(json) {
     });
 }//Todos los archivos pasan por acá.
 
-function agregarClases(objHTML, Array) {
-  let valor="";
-  for (const key in Array) {
-    valor+=Array[key]+" ";
-  }
-  etikedo.almetiAtributon(objHTML, "class" ,valor);  
-  return objHTML;
-}
-
 function limpiar(tema) {
   tema.innerHTML=""
 }
 function main() {
   agregarEventos();//Cuando una etiqueta necesita un evento, lo agrego acá
-  insertarClasesEnSection(); //Actualiza el Select con los botones de clada grado
+  insertarOptionsEnSection(); //Actualiza el Select con los botones de clada grado
 }
 
 async function agregarEventos() {
@@ -49,7 +40,7 @@ async function seleccionarClase() {
   cargarClase(ARCH);
 }
 
-async function insertarClasesEnSection() {
+async function insertarOptionsEnSection() {
   try {
     const OBJ_SELECT = etikedo.troviIdn(cst.ID_SELECT);
     const ARCH = await abrirJson("Botones");
@@ -57,9 +48,9 @@ async function insertarClasesEnSection() {
 
     for (let index = 0; index < CLASES.length; index++) {
       const OBJ_OPTION = etikedo.krei(cst.E_OP);
-      etikedo.almetiTekston(OBJ_OPTION, CLASES[index][0]);
-      etikedo.almetiAtributon(OBJ_OPTION, cst.ATR_VALUE, CLASES[index][1]);
-      etikedo.almetiFilon(OBJ_OPTION, OBJ_SELECT);
+      etikedo.aldoniTekston(CLASES[index][0], OBJ_OPTION);
+      etikedo.aldoniAtributon(OBJ_OPTION, cst.ATR_VALUE, CLASES[index][1]);
+      etikedo.aldoniFilon(OBJ_OPTION, OBJ_SELECT);
     }
   } catch (error) {
     consola("falló 'ABRIRJSON()'\n\n"+error);
@@ -79,19 +70,32 @@ function cargarClase(ARCH) {
 
   //Cargar
   const TITULO = ARCH.titulo_clase;
-  const TITULO_TEMA = ARCH.tema.titulo;
+  const TITULO_TEMA = ARCH.tema.titulo_tema;
+  consola(ARCH)
+  const OBJ_H1=etikedo.krei(cst.E_H1);
+  const OBJ_H2=etikedo.krei(cst.E_H2);
+  etikedo.aldoniTekston(TITULO, OBJ_H1);
+  etikedo.aldoniTekston(TITULO_TEMA, OBJ_H2);
+  etikedo.aldoniFilon(OBJ_H1, OBJ_SECTION)
+    etikedo.aldoniFilon(OBJ_H2, OBJ_SECTION)
   const SUBTEMAS = ARCH.tema.subtemas
   for (const key in SUBTEMAS) {
     const SUBTEMA = SUBTEMAS[key];
     const OBJ_ARTICLE = etikedo.krei(cst.E_ART);
-    const TITULO_SUBTEMA= SUBTEMA.titulo;
+    if (SUBTEMA.titulo.length>0) {
+      const TITULO_SUBTEMA= SUBTEMA.titulo;
+      const OBJ_H3 = etikedo.krei(cst.E_H3)
+      etikedo.aldoniTekston(TITULO_SUBTEMA, OBJ_H3);
+      etikedo.aldoniFilon(OBJ_H3, OBJ_ARTICLE)
+    }
     const CONTENIDO_SUBTEMA = SUBTEMA.contenido
     for (const key in CONTENIDO_SUBTEMA) {
       const ETIQUETA = CONTENIDO_SUBTEMA[key]
       const objHTML= crearEtiqueta(ETIQUETA);
-      etikedo.almetiFilon(objHTML, OBJ_ARTICLE)
+      etikedo.aldoniFilon(objHTML, OBJ_ARTICLE)
     }
-    etikedo.almetiFilon(OBJ_ARTICLE, OBJ_SECTION)
+    
+    etikedo.aldoniFilon(OBJ_ARTICLE, OBJ_SECTION)
   }
 }
 
@@ -103,16 +107,17 @@ function crearEtiqueta(OBJ_JSON) {
   const objHTML = etikedo.krei(NOMBRE);
   
   const CLASE = ATRIBUTOS[cst.ATR_JSON_CLASE]
-  const COLOR = ATRIBUTOS[cst.ATR_JSON_COLOR]
+  const STILO = ATRIBUTOS[cst.ATR_JSON_ESTILO]
   const TITULO = ATRIBUTOS[cst.ATR_JSON_TITULO]
 
-  agregarClases(objHTML, [CLASE, COLOR]);
+  etikedo.aldoniKlasojn(objHTML, [CLASE]);
+  etikedo.aldoniStilon(objHTML, STILO)
 
   switch (NOMBRE) {
     case cst.E_P:
       return llenar_P(objHTML, INFO);
     case cst.E_TABLA:
-      return llenar_Tabla(objHTML, TITULO, INFO);
+      return llenar_Tabla(objHTML, TITULO, INFO, STILO);
     case cst.E_DIV:
       return llenar_Div(objHTML, TITULO, INFO);  
     default:
@@ -120,30 +125,43 @@ function crearEtiqueta(OBJ_JSON) {
   }
 }
 
+
 function llenar_P(objHTML, INFO) {
-  etikedo.almetiTekston(objHTML, INFO.contenido);
+  etikedo.aldoniTekston(INFO.contenido, objHTML);
   return objHTML;
 }
 
-function llenar_Tabla(objHTML, TITULO, INFO) {
+function llenar_Tabla(objHTML, TITULO, INFO, STILO) {
   const FILAS = INFO.tr;
+  if (TITULO.length!=0) {
+    const OBJ_TR_TITULO = etikedo.krei(cst.E_TR);
+    const OBJ_TH_TITULO = etikedo.krei(cst.E_TH);
+    etikedo.aldoniTekston(TITULO, OBJ_TH_TITULO)
+    etikedo.aldoniStilonAlTablo(OBJ_TH_TITULO, STILO)
+    etikedo.aldoniFilon(OBJ_TH_TITULO, OBJ_TR_TITULO);
+    etikedo.aldoniFilon(OBJ_TR_TITULO, objHTML)
+  }
   for (const key in FILAS) {
     const OBJ_TR = etikedo.krei(cst.E_TR);
     const COLUMNAS = FILAS[key];
+
     for (const key in COLUMNAS) {
       const ID_COLUMNA = Object.keys(COLUMNAS[key]);
-      const OBJ_T_DH=etikedo.krei(ID_COLUMNA)
-      const TXT = COLUMNAS[key][ID_COLUMNA]
-      if (Object.keys(COLUMNAS[key])=="th") {
-        const OBJ_H1 = etikedo.krei(cst.E_H1);
-        etikedo.almetiTekston(OBJ_H1, TXT);
-        etikedo.almetiFilon(OBJ_H1, OBJ_T_DH)
-      } else {
-        etikedo.almetiTekston(OBJ_T_DH, TXT);
+      const ETIQUETA = ID_COLUMNA[0]
+      const ID_ATRS= ID_COLUMNA[1]
+      const ATRS= COLUMNAS[key][ID_ATRS]
+
+      const OBJ_T_DH=etikedo.krei(ETIQUETA)
+      const TXT = COLUMNAS[key][ETIQUETA]
+      etikedo.aldoniTekston(TXT, OBJ_T_DH);
+
+      if (INFO.alinear){
+        etikedo.aldoniStilon(OBJ_TR, {"alinear":INFO.alinear})
       }
-      etikedo.almetiFilon(OBJ_T_DH, OBJ_TR)
+      etikedo.aldoniStilonAlTablo(OBJ_T_DH, ATRS)
+      etikedo.aldoniFilon(OBJ_T_DH, OBJ_TR)
     }
-    etikedo.almetiFilon(OBJ_TR, objHTML)
+    etikedo.aldoniFilon(OBJ_TR, objHTML)
   }
   return objHTML;
 }
@@ -153,7 +171,7 @@ function llenar_Div(objHTML, TITULO, INFO) {
   for (const key in CONTENIDO) {
     const ETIQUETA = CONTENIDO[key];
     const objHTML2 = crearEtiqueta(ETIQUETA);
-    etikedo.almetiFilon(objHTML2, objHTML);
+    etikedo.aldoniFilon(objHTML2, objHTML);
   }
   return objHTML;
 }
