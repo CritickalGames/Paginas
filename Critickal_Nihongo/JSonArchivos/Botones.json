@@ -1,18 +1,18 @@
 {
     "clases":[
-        ["clase 1","1-Japones"],
-        ["clase 2","2-Japones"],
-        ["clase 3","3-Japones"],
-        ["clase 4","4-Japones"],
-        ["clase 5","5-Japones"],
-        ["clase 6","6-Japones"],
-        ["clase 7","7-Japones"],
-        ["clase 8","8-Japones"],
-        ["clase 9","9-Japones"],
-        ["clase 10","10-Japones"],
-        ["clase 11","11-Japones"],
-        ["clase 12","12-Japones"],
-        ["clase 13","13-Japones"],
-        ["clase 14","14-Japones"]
+        ["clase 1","Japones1"],
+        ["clase 2","Japones2"],
+        ["clase 3","Japones3"],
+        ["clase 4","Japones4"],
+        ["clase 5","Japones5"],
+        ["clase 6","Japones6"],
+        ["clase 7","Japones7"],
+        ["clase 8","Japones8"],
+        ["clase 9","Japones9"],
+        ["clase 10","Japones10"],
+        ["clase 11","Japones11"],
+        ["clase 12","Japones12"],
+        ["clase 13","Japones13"],
+        ["clase 14","Japones14"]
     ]
 }

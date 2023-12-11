@@ -8,8 +8,8 @@ function consola(params) {
   console.log(params)
 }//Para el debugg unicamente
 
-function abrirJson(json) {
-  return Xson.abrirJson(json)
+function abrirJson(carpeta,json) {
+  return Xson.abrirJson(carpeta, json)
     .then((resultado) => {
       return((resultado));
     })
@@ -36,14 +36,14 @@ async function agregarEventos() {
 
 async function seleccionarClase() {
   const SELECT_VALUE = etikedo.troviIdn(cst.ID_SELECT).value;
-  const ARCH = await abrirJson(SELECT_VALUE);
+  const ARCH = await abrirJson("Japones",SELECT_VALUE);
   cargarClase(ARCH);
 }
 
 async function insertarOptionsEnSection() {
   try {
     const OBJ_SELECT = etikedo.troviIdn(cst.ID_SELECT);
-    const ARCH = await abrirJson("Botones");
+    const ARCH = await abrirJson("","Botones");
     const CLASES = ARCH.clases;
 
     for (let index = 0; index < CLASES.length; index++) {
