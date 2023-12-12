@@ -36,7 +36,7 @@ async function agregarEventos() {
 
 async function seleccionarClase() {
   const SELECT_VALUE = etikedo.troviIdn(cst.ID_SELECT).value;
-  const ARCH = await abrirJson("Japones",SELECT_VALUE);
+  const ARCH = await abrirJson("Ejemplos","ejemplo2");
   cargarClase(ARCH);
 }
 
@@ -71,7 +71,7 @@ function cargarClase(ARCH) {
   //Cargar
   const TITULO = ARCH.titulo_clase;
   const TITULO_TEMA = ARCH.tema.titulo_tema;
-  consola(ARCH)
+
   const OBJ_H1=etikedo.krei(cst.E_H1);
   const OBJ_H2=etikedo.krei(cst.E_H2);
   etikedo.aldoniTekston(TITULO, OBJ_H1);
@@ -103,7 +103,11 @@ function crearEtiqueta(OBJ_JSON) {
   const NOMBRE = OBJ_JSON[0];
   const ATRIBUTOS = OBJ_JSON[1];
   const INFO = OBJ_JSON[2];
-
+  try {
+    consola(OBJ_JSON[2])
+  } catch (error) {
+    
+  }
   const objHTML = etikedo.krei(NOMBRE);
   
   const CLASE = ATRIBUTOS[cst.ATR_JSON_CLASE]
