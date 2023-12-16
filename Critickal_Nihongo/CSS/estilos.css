@@ -10,3 +10,13 @@ aside{
 p.sangria{
     text-indent: 40px;
 }
+div>p{
+    margin-bottom: 0px;
+}
+
+table{
+    border: #b2b2b2 1px solid;
+}
+td, th{
+    border: black 1px solid;
+}

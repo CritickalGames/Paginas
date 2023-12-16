@@ -3,6 +3,18 @@ export function aldoniAtributon(objHTML, atributo, valor){
     return objHTML
 }
 
+export function aldoniAtributojn(objHTML, ATR) {
+    const KEYS = Object.keys(ATR);
+    for (const key in KEYS) {
+        const KEY = KEYS[key]
+        if (key=="style") {
+            aldoniStilon(objHTML, ATR);
+        }
+        aldoniAtributon(objHTML, KEY, ATR[KEY]);
+    }
+    return objHTML;
+}
+
 export function aldoniFilon(filo, patro) {
     patro.appendChild(filo)
     return patro;
@@ -28,12 +40,13 @@ export function aldoniStilon(objHTML, objJSON) {
     aldoniAtributon(objHTML, "style", valor);  
     return objHTML;
 }
-export function aldoniStilonAlTablo(objHTML, ARRAY){
+export function aldoniStilonAlTablo(objHTML, objStyle){
     let atr;
     let valor="";
-    for (const id in ARRAY) {
+    /*
+    for (const id in objStyle) {
         atr=id;
-        const atrValor = ARRAY[id];
+        const atrValor = objStyle[id];
         switch (atr) {
             case "espandir":
                 aldoniAtributon(objHTML, "colspan", atrValor)
@@ -43,6 +56,7 @@ export function aldoniStilonAlTablo(objHTML, ARRAY){
                 break;
         }
     }
+    */
     aldoniAtributon(objHTML, "style", valor);  
     return objHTML;
 }

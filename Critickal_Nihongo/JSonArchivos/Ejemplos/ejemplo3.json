@@ -15,23 +15,31 @@
                         "etikedo":"table", "titulo":"verdero titulo", "style":{"bg":"negro", "color":"blanco"},
                         "atr":{"class":"hola mundo", "style":{"bg":"negro", "color":"blanco"}},
                         "info":
-                        {
-                            "tr":
-                            [
+                        [
+                            {
+                                "style":{"bg":"rojo"},
+                                "tr":
                                 [
                                     {"th":"titulo", "style":{"bg":"negro", "color":"blanco", "espandir": 3}}
-                                ],
+                                ]
+                            },
+                            {
+                                "tr":
                                 [
                                     {"td":"contenido1","style":{"bg":"verde"}},
                                     {"td":"contenido2", "style":{"bg":"verde", "espandir":2, "alinear":"center"}}
-                                ],
+                                ]
+                            },
+                            {
+                                "style":{"bg":"verde"},
+                                "tr":
                                 [
                                     {"td":"contenido1", "style":{"bg":"verde"}},
                                     {"td":"contenido2", "style":{"bg":"verde"}},
                                     {"td":"contenido3", "style":{"bg":"verde"}}
                                 ]
-                            ]
-                        }
+                            }
+                        ]
                     },
                     {
                         "etikedo":"div", "titulo":"",
