@@ -1,6 +1,7 @@
 window.addEventListener("load", main);
 
 import * as Xson from "./json.js";
+import * as crearHTMLconJSON from "./crearhtmlConJSon.js";
 import * as cst from "./variablesConstates.js";
 import * as etikedo from "./manipularHTML.js";
 
@@ -8,13 +9,11 @@ function consola(params) {
   console.log(params)
 }//Para el debugg unicamente
 
-function abrirJson(carpeta,json) {
+function abrirJson(carpeta, json) {
   return Xson.abrirJson(carpeta, json)
-    .then((resultado) => {
-      return((resultado));
-    })
     .catch((error) => {
-        console.error(error);
+      console.error(error);
+      throw error; // Rechaza la promesa con el error original
     });
 }//Todos los archivos pasan por acá.
 
@@ -36,8 +35,21 @@ async function agregarEventos() {
 
 async function seleccionarClase() {
   const SELECT_VALUE = etikedo.troviIdn(cst.ID_SELECT).value;
-  const ARCH = await abrirJson("Japones",SELECT_VALUE);
-  cargarClase(ARCH);
+  try {
+    const ARCH = await abrirJson("Japones", SELECT_VALUE);
+    const OBJ_SECTION = etikedo.troviIdn(cst.ID_SECTION);
+    limpiar(OBJ_SECTION);
+    cargarHTMLconJSON(ARCH, OBJ_SECTION); 
+    //const ARCHI = await abrirJson("Japones",SELECT_VALUE);
+    //cargarClase(ARCHI);
+  } catch (error) {
+    console.error('Error al cargar el JSON:', error);
+    // Maneja el error según sea necesario
+  }
+}
+
+function cargarHTMLconJSON(ARCH, PADRE) {
+  crearHTMLconJSON.crearPagina(ARCH, PADRE)
 }
 
 async function insertarOptionsEnSection() {
@@ -71,7 +83,7 @@ function cargarClase(ARCH) {
   //Cargar
   const TITULO = ARCH.titulo_clase;
   const TITULO_TEMA = ARCH.tema.titulo_tema;
-  consola(ARCH)
+  //consola(ARCH)
   const OBJ_H1=etikedo.krei(cst.E_H1);
   const OBJ_H2=etikedo.krei(cst.E_H2);
   etikedo.aldoniTekston(TITULO, OBJ_H1);

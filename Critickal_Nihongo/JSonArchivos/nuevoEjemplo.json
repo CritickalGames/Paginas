@@ -1,0 +1,90 @@
+{
+    "titulo":"x",
+    "subtemas":
+    {
+        "titulo1":
+        [
+            {"titulo":"parrafo 1","contenido":"jjj"},
+            {
+                "etiqueta":"tabla", "titulo":"es la tabla",
+                "filas":
+                [
+                    [
+                        {"info":{"th":"contenido"}, "atr":{}},
+                        {"info":{"th":"contenido"}, "atr":{}},
+                        {"info":{"th":"contenido"}, "atr":{}}
+                    ],
+                    [
+                        {"info":{"td":"contenido"}, "atr":{}},
+                        {"info":{"td":"contenido"}, "atr":{}},
+                        {"info":{"td":"contenido"}, "atr":{}}
+                    ],
+                    [
+                        {"info":{"td":"contenido"}, "atr":{}},
+                        {"info":{"td":"contenido"}, "atr":{}},
+                        {"info":{"td":"contenido"}, "atr":{}}
+                    ]
+                ]
+            },
+            {
+                "etiqueta":"div", "titulo":"es un div",
+                "filas":
+                [
+                    [
+                        {"info":"div1.1", "atr":{}},{"info":"div1.2", "atr":{}} 
+                    ]
+                ]
+            }
+        ],
+        "titulo2":
+        [
+            {"titulo":"parrafo 2","contenido":"jjj"},
+            {
+                "etiqueta":"tabla", "titulo":"es la tabla",
+                "filas":
+                [
+                    [
+                        {"info":{"th":"contenido"}, "atr":{}},
+                        {"info":{"th":"contenido"}, "atr":{}},
+                        {"info":{"th":"contenido"}, "atr":{}}
+                    ],
+                    [
+                        {"info":{"td":"contenido"}, "atr":{}},
+                        {"info":{"td":"contenido"}, "atr":{}},
+                        {"info":{"td":"contenido"}, "atr":{}}
+                    ],
+                    [
+                        {"info":{"td":"contenido"}, "atr":{}},
+                        {"info":{"td":"contenido"}, "atr":{}},
+                        {"info":{"td":"contenido"}, "atr":{}}
+                    ]
+                ]
+            },
+            {
+                "etiqueta":"div", "titulo":"es un div",
+                "filas":
+                [
+                    [
+                        {"info":"div2.1", "atr":{}},
+                        {
+                            "etiqueta":"div", "titulo":"es un div",
+                            "filas":
+                            [
+                                [
+                                    {"info":"div2.1", "atr":{}}
+                                ],
+                                [
+                                    {"info":"div2.2.1", "atr":{}},{"info":"div2.2.2", "atr":{}}
+                                ]
+                            ]
+                        },
+                        {"info":"div2.1", "atr":{}}
+                    ],
+                    [
+                        {"info":"div2.2.1", "atr":{}},{"info":"div2.2.2", "atr":{}}
+                    ]
+                ]
+            }
+        ]
+    }
+}
