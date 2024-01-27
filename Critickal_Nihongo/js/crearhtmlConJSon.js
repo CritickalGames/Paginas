@@ -5,30 +5,34 @@ export function crearPagina(ARCHIVO, PADRE) {
     console.log(PADRE);
     crearTema(ARCHIVO, PADRE);
 }
-
 function crearTema(ARCHIVO, PADRE) {
     const TEMA_TITULO = ARCHIVO.titulo;
     const OBJ_TEMA_TITULO = etikedo.krei(cst.E_H1);
     etikedo.aldoniTekston(TEMA_TITULO, OBJ_TEMA_TITULO);
-
+    etikedo.aldoniFilon(OBJ_TEMA_TITULO, PADRE);
     crearSubtemas(ARCHIVO.subtemas, PADRE);
 }
-
 function crearSubtemas(SUBTEMAS, PADRE) {
     const ARR_TITULOS = obtenerTitulos(SUBTEMAS);
     const OBJ_ARTICLE= etikedo.krei(cst.E_ART)
     ARR_TITULOS.forEach(element => {
+        agregarTituloArticulo(element, OBJ_ARTICLE)
         const OBJ_ETIQUETA=(crearParrafo(SUBTEMAS[element], OBJ_ARTICLE));
     });
     console.log(OBJ_ARTICLE);
     etikedo.aldoniFilon(OBJ_ARTICLE, PADRE)
 }
-
 function obtenerTitulos(object) {
     let array=Object.keys(object);
     return array;
 }
-
+function agregarTituloArticulo(Titulo, Articulo) {
+    const E_TITULO= etikedo.krei(cst.E_H2);
+    const E_CENTER = etikedo.krei(cst.E_CENTER);
+    etikedo.aldoniTekston(Titulo, E_TITULO);
+    etikedo.aldoniFilon(E_TITULO, E_CENTER);
+    etikedo.aldoniFilon(E_CENTER, Articulo);
+}
 function crearParrafo(ARR_PARRAFO, PADRE) {
     let obj_etiqueta;
     ARR_PARRAFO.forEach(PARRAFO => {
@@ -45,9 +49,9 @@ function crearParrafo(ARR_PARRAFO, PADRE) {
     });
 }
 function agregarTitulo(PARRAFO, OBJ_CONTENEDOR) {
-    const OBJ_H1 = etikedo.krei(cst.E_H1)
-    etikedo.aldoniTekston(PARRAFO.titulo, OBJ_H1);
-    etikedo.aldoniFilon(OBJ_H1, OBJ_CONTENEDOR);
+    const OBJ_H3 = etikedo.krei(cst.E_H3)
+    etikedo.aldoniTekston(PARRAFO.titulo, OBJ_H3);
+    etikedo.aldoniFilon(OBJ_H3, OBJ_CONTENEDOR);
 }
 function crearConEtiqueta(PARRAFO, PADRE) {
     const OBJ_ETIQUETA= crearEtiqueta(PARRAFO.etiqueta);

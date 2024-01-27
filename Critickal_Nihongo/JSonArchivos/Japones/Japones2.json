@@ -1,0 +1,42 @@
+{
+    "titulo":"Clase 2, ¿Cómo leer estas cosas raras?",
+    "subtemas":
+    {
+        "¿Cómo leer?":
+        [
+            {
+                "titulo":"Recursos",
+                "filas":
+                [
+                    [
+                        "El recurso que encontré y que pueden usar para comparar lo que digo con lo que oyen, es el siguiente",
+                        "https://www.youtube.com/watch?v=bvgph0DmlBE"
+                    ],
+                    [
+                        "Éste otro recurso es para que aprendan a diferenciar los sonidos 'SH' porque hay 4",
+                        "https://youtu.be/GIkDrHWwWJs",
+                        "Es cuestion de practicar y acostumbrarse"
+                    ]
+                ]
+            },
+            {
+                "titulo":"Reglas básicas",
+                "filas":
+                [
+                    [
+                        "Lo primero sería aclarar como leer el romanji, porque en base a eso vamos a inferrir la lectura de las silabas",
+                        "Las letras: AIUEO, KGSZTDN-BPM-RW se leen como en español. Ka, Ga, Sa, Za, Ta, Da, Na, Ba, Pa, Ma, Ra, Wa. Se leen como crees.",
+                        "Las letras H e Y se leen como una J y una I, respectivamente. Jojo se lee 'Shosho' y Nya se lee 'Nia' "
+                    ],
+                    [
+                        "Las silabas Si, Ti, Tu, Zi, Di, Du, se pueden representar como las representé, pero lo común es escribirlas: Shi, chi, tsu, ji, ji, zu.",
+                        "Lo sé, hay dos ji y dos zu. Es porque es la representación más cercana a su lectura real. Al escribir en teclado debes escribirlos Di y Du para que el teclado entienda.",
+                        "La J se lee como un Sh. Por eso uno de los recursos es para aprender a diferenciar los 4 tipos de SH.",
+                        "La silaba Tsu se lee como crees. "
+                    ]
+                ]
+            }
+        ]
+    }
+
+}
