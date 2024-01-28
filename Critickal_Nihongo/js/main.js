@@ -64,7 +64,7 @@ async function insertarOptionsEnSection() {
 }
 
 function cargarClase(ARCH) {
-  //limpiar
+  //limpiar página
   const OBJ_SECTION = etikedo.troviIdn(cst.ID_SECTION)
   limpiar(OBJ_SECTION);
 
