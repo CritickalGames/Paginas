@@ -8,9 +8,17 @@ aside{
 }
 
 p{
-    text-indent: 10px;
+    text-indent: 50px;
 }
 p>p{
     margin-top: 0%;
     margin-bottom:0%;
+}
+
+table, th, td{
+    border: 3px solid;
+}
+table{
+    margin-left: 20px;
+    margin-right: 20px;
 }

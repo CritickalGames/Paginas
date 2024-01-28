@@ -5,14 +5,177 @@
         "Pronombres":
         [   
             {
-                "titulo":"Lista", "etiqueta":"tabla",
+                "titulo":"Lista Formal", "etiqueta":"tabla",
                 "filas":
                 [
                     [
                         {"info":{"th":"Español"}, "atr":{}},
+                        {"info":{"td":"Yo"}},
+                        {"info":{"td":"Usted"}},
+                        {"info":{"td":"Él"}},
+                        {"info":{"td":"Ella"}},
+                        {"info":{"td":"Nosotros"}},
+                        {"info":{"td":"Vosotros"}},
+                        {"info":{"td":"Ellos"}},
+                        {"info":{"td":"Ellas"}},
+                        {"info":{"td":"Sexo indefinido"}}
+                    ],
+                    [
                         {"info":{"th":"Japonés"}, "atr":{}},
+                        {"info":{"td":"私"}},
+                        {"info":{"td":"貴方[Sólo si no conoces el apellido de alguien]"}},
+                        {"info":{"td":"彼"}},
+                        {"info":{"td":"彼女"}},
+                        {"info":{"td":"私たち"}},
+                        {"info":{"td":"貴方たち"}},
+                        {"info":{"td":"彼ら"}},
+                        {"info":{"td":"彼女ら"}},
+                        {"info":{"td":"存在しない「Que no existe」"}}
+                    ],
+                    [
                         {"info":{"th":"Lectura"}, "atr":{}},
-                        {"info":{"th":"Connotación"}, "atr":{}}
+                        {"info":{"td":"わたし"}},
+                        {"info":{"td":"あなた[Lo normal es escribirlo así, sin kanji]"}},
+                        {"info":{"td":"かれ"}},
+                        {"info":{"td":"かのじょ"}},
+                        {"info":{"td":"わたしたち"}},
+                        {"info":{"td":"あなたたち"}},
+                        {"info":{"td":"かれら"}},
+                        {"info":{"td":"かのじょら"}},
+                        {"info":{"td":"そんざいしない"}}
+                    ]
+                ]
+            },
+            {
+                "titulo":"Lista Informal", "etiqueta":"tabla",
+                "filas":
+                [
+                    [
+                        {"info":{"th":"Español"}, "atr":{}},
+                        {"info":{"td":"Yo"}},
+                        {"info":{"td":"Usted"}},
+                        {"info":{"td":"Él"}},
+                        {"info":{"td":"Ella"}},
+                        {"info":{"td":"Nosotros"}},
+                        {"info":{"td":"Vosotros"}},
+                        {"info":{"td":"Ellos"}},
+                        {"info":{"td":"Ellas"}},
+                        {"info":{"td":"Sexo indefinido"}}
+                    ],
+                    [
+                        {"info":{"th":"Japonés[Viril, descortes y ofensivo]"}, "atr":{}},
+                        {"info":{"td":"俺"}},
+                        {"info":{"td":"お前"}},
+                        {"info":{"td":"-"}},
+                        {"info":{"td":"-"}},
+                        {"info":{"td":"-"}},
+                        {"info":{"td":"-"}},
+                        {"info":{"td":"-"}},
+                        {"info":{"td":"-"}},
+                        {"info":{"td":"あいつ"}}
+                    ],
+                    [
+                        {"info":{"th":"Lectura"}, "atr":{}},
+                        {"info":{"td":"おれ"}},
+                        {"info":{"td":"おまえ"}},
+                        {"info":{"td":"-"}},
+                        {"info":{"td":"-"}},
+                        {"info":{"td":"-"}},
+                        {"info":{"td":"-"}},
+                        {"info":{"td":"-"}},
+                        {"info":{"td":"-"}},
+                        {"info":{"td":"あいつ"}}
+                    ],
+                    [
+                        {"info":{"th":"Español"}, "atr":{}},
+                        {"info":{"td":"Yo"}},
+                        {"info":{"td":"Usted"}},
+                        {"info":{"td":"Él"}},
+                        {"info":{"td":"Ella"}},
+                        {"info":{"td":"Nosotros"}},
+                        {"info":{"td":"Vosotros"}},
+                        {"info":{"td":"Ellos"}},
+                        {"info":{"td":"Ellas"}},
+                        {"info":{"td":"Sexo indefinido"}}
+                    ],
+                    [
+                        {"info":{"th":"Japonés[Femenino, se supone que sea 'Lindo']"}, "atr":{}},
+                        {"info":{"td":"あたし"}},
+                        {"info":{"td":"あんた[Sólo usado entre amigos y gente de confianza, fuera de ahí es ofensivo]"}},
+                        {"info":{"td":"-"}},
+                        {"info":{"td":"-"}},
+                        {"info":{"td":"-"}},
+                        {"info":{"td":"-"}},
+                        {"info":{"td":"-"}},
+                        {"info":{"td":"-"}},
+                        {"info":{"td":"-"}}
+                    ],
+                    [
+                        {"info":{"th":"Lectura"}, "atr":{}},
+                        {"info":{"td":"おれ"}},
+                        {"info":{"td":"おまえ"}},
+                        {"info":{"td":"-"}},
+                        {"info":{"td":"-"}},
+                        {"info":{"td":"-"}},
+                        {"info":{"td":"-"}},
+                        {"info":{"td":"-"}},
+                        {"info":{"td":"-"}},
+                        {"info":{"td":"-"}}
+                    ]
+                ]
+            }
+        ],
+        "Aclaraciones":
+        [
+            {
+                "titulo":"",
+                "filas":
+                [
+                    [
+                        "En Japón pretenden ser muy 'correctos' y 'formales', así que lo normal y lo que siempre se te va a intentar enseñar es lo formal para que no hables mal en japón. Pero como yo creo que vas a usarlo sólo para ver anime y leer, te enseño todo lo formal e informal que conozco para que entiendas la connotación cuando una chica linda dice 'OE, OMAERA' y comprendas que debe ser una escena shoqueante.",
+                        "Como ven, algunas palabras no tienen versión informal, porque si no le llamas por su nombre con el honorifico necesario, ya es una falta de respeto. Si dices 'él' o 'ella', no es ofensivo, pero si quieres sonar ofensivo, la única alternativa, es insultar directamente. Y no enseñaré a insultar... Aún",
+                        "En japón no existe el pronombre de género neutro. Como en español."
+                    ],
+                    [
+                        "Todo esto me lleva a hablar de ¿Cómo ser formal y no faltar al respeto en japón?",
+                        "Supongo que ya lo sabes, pero en japón, llamarse por el nombre es algo intimo. Si la relación no es intima: es una falta de respeto.",
+                        "También, si alguien tiene un cargo y no usas el cargo al mencionarlo, según el contexto y la persona: es una falta de respeto",
+                        "Si no tiene un cargo, como 'Presidente del consejo estudiantil', dependiendo de su rango de superioridad sobre ti, no usar el hororifico indicado como 'san' y usar 'kun': es una falta de respeto",
+                        "Usar honorificos contigo mismo, es muy infantil y si se dice en un entonrno 'serio': es una falta de respeto",
+                        "Todo esto me lleva a hacer una tabla de honorificos, pero creo que no daría el espacio en ninguna tabla como para explicar todo el tema de los honorificos, así que..."
+                    ]
+                ]
+            },
+            {
+                "titulo":"Plural",
+                "filas":
+                [
+                    [
+                        "En japonés, el plural es たち para Nosotros y Vosotros. Para la tercera persona: usan ら",
+                        "Esto significa que わたし deja de ser 'Yo' y pasa a ser 'Nosotros' si agregamos 'たち'",
+                        "Lo mismo para あなた-->あなたたち | Vos-->Vosotros",
+                        "Para 'Ellos' y 'Ellas' se agrega ら al singular."
+                    ],
+                    [
+                        "Es importante tener en cuenta que, en la mayoría de los casos, el género de las personas en el grupo se infiere del contexto o se especifica mediante otras palabras o frases en la oración. Si es necesario especificar el género, se pueden usar palabras adicionales como '男性' (dansei) para 'hombres' o '女性' (josei) para 'mujeres'.",
+                        "Literalmente, son los sustantivos para hombre y mujer, respectivamente."
+                    ]
+                ]
+            }
+        ],
+        "Honorificos":
+        [
+            {
+                "titulo":"Lista y pequeña explicaciónde honorificos",
+                "filas":
+                [
+                    [
+                        "Hay muchos honorificos y la mayoría son cariñosos, por lo que no se pueden usar normalmente. Cosas como 'Emilia-tan' de Re:zero; 'Nami-suan' y 'Robin-chuan' de Sanji de One piece. Son cosas que se inventan y que no te importan porque los honorificos modernos son:",
+                        "San: El más común y a veces traducido como Sr o Sra. No tiene ningún significado especifico, pero se usa con aquellos que tienes una relación seria, laboral, poco cercana o de simplemente 'nos llevamos bien'.",
+                        "Kun: Conmunmente usada para niños pequeños, o para referise a un amigo masculino, pero también puedes oir que un profesor le llame a una estudiante de secundaria como 'Aiko-kun', porque es cariñoso, más, no tan cariñoso.",
+                        "Chan: Es mucho más cariñoso que Kun, pero usa con niñas o chicas. No conozco ningún contexto fuera de la burla en el que se pueda usar Chan con un chico.",
+                        "SAMA: Usado en dioses y emperadores(al ser estos considerados dioses en el antiguo japón). En el anime se usa para endiosar a una persona. También un fan puede hablar de su idol pop como 'Takumi-sama', porque ve a esa persona en un pedestal. Fuera de esos 4 contextos, lo más problable es que nunca los veas o nunca lo uses porque, en verdad es algo medio bobo fuera del contexto de respeto al rey o respeto a un dios.",
+                        "Honorificos antiguos: Si te gustan los dramas o animes de época(basados en el japón feudal), oirás que a los nobles guerreros le usan un honorifico que no conoces. Ese honorifico y otros, son anitguos y no me interesa hablar de ellos. Pero quiero que sepas que existen y que están en desuso."
                     ]
                 ]
             }
