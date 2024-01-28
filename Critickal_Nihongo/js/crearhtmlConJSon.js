@@ -73,8 +73,9 @@ function crearSinEtiqueta(PARRAFO, obj_etiqueta, OBJ_CONTENEDOR) {
         }
 
         for (const p in FILA) {
-            etikedo.aldoniTekston(FILA[p], obj_etiqueta);
-            etikedo.aldoniFilon(etikedo.krei(cst.E_BR), obj_etiqueta);                
+            let parrafo = etikedo.krei(cst.E_P);
+            parrafo=etikedo.aldoniTekston(FILA[p], parrafo);
+            etikedo.aldoniFilon(parrafo, obj_etiqueta);
         }
         etikedo.aldoniFilon(obj_etiqueta, OBJ_CONTENEDOR);
     }
