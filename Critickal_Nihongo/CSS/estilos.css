@@ -6,3 +6,7 @@ body {
 aside{
     background-color: rgb(36, 140, 189);
 }
+
+p{
+    text-indent: 10px;
+}

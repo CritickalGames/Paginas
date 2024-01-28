@@ -1,0 +1,55 @@
+{
+    "titulo":"Clase 3, ¿Tipos de palabras?",
+    "subtemas":
+    {
+        "Categorías gramaticales":
+        [
+            {
+                "titulo":"",
+                "filas":
+                [
+                    [
+                        "En un lenguaje más técnico, lo que quiero explicar es qué categorías gramaticales existen"
+                    ],
+                    [
+                        "En español tenemos 9 tipos de palabras.",
+                        "Quiero enseñar esto porque es conocimiento básico que usaremos en mi sistema para aprender más rápido."
+                    ],
+                    [
+                        "➢Pronombre: Yo, vos, él, ella, nosotros, vosotros, ellos. Son las palabras que usamos para no decir el nombre de la persona. 'Yo le dí mi comida a él'"
+                    ],
+                    [
+                        "➢Verbo: Representan las acciones"
+                    ],
+                    [
+                        "➢Adjerivo: son palabras que describen un objeto. Rojo, rápido, fuerte, débil, loca."
+                    ],
+                    [
+                        "➢Sustantivo: Los nombres de las cosas. Hombre, mujer, perro, animal, mesa, teclado, monitor."
+                    ],
+                    [
+                        "➢Articulo: Indican de qué sustantivo hablamos: el libro, un libro, unos libros, ese libro, éste libro y aquel o aquellos libros. En japonés y otros varios idiomas, no se usan los primeros 3, porque no existen y cuando traducimos desde el japonés al español debemos agregar a conciencia estos elementos."
+                    ],
+                    [
+                        "➢Adverbio: Palabras que modifican verbos o adjetivos. 'Rápido', 'Intenso'. 'Él corre rápido', 'El auto de rojo intenso'"
+                    ],
+                    [
+                        "➢Preposición: Marcan la relación entre palabras: llegaste HASTA la puerta; eso es DE él. En japonés no hay una relación 1 a 1, así que ellos no tienen 'Preposiciones', tienen 'partículas' y un sub conjunto de partículas se corresponden a lo que hacen las preposiciones."
+                    ],
+                    [
+                        "➢Conjunción: Son palabras, o, nuevamente, en el caso del japonés, partículas, que cumplen la función de unir dos oraciones o frases. Un ejemplo podría ser 'Él vino Y se fue'."
+                    ],
+                    [
+                        "➢Onomatopeyas: Yo las cuento como una categoría, aunque quizás no sea lo más correcto. Las onomayopeyas son esas palabras que representan sonidos. 'Bang', 'Wof', 'Pio pio', 'Ahhh'",
+                        "La 'verdadera' novena categoría es 'interjección', pero como son palabras que representan algún animo y no significan nada en sí. '¡Hala!', 'Uf' y así, las considero representaciones foneticas de sonidos, porque las palabras en esta categoría varían de signficiado según la situación y la itennción del que habla."
+                    ],
+                    [
+                        "Con el tiempo, te olvidarás de esta lista, pero hasta entonces, será muy útil para aprender más rápido y comprender las palabras que usas.",
+                        "Recuerda que una sóla palabra puede peretenecer a varias categorías gramáticales. Depende del contexto y del idioma."
+                    ]
+                ]
+            }
+        ]
+    }
+
+}

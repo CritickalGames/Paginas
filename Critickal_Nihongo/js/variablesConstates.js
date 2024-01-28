@@ -13,7 +13,10 @@ export const PA = "p",
   E_ART = "article",
   E_OP = "option",
   E_P= "p",
-  E_BR= "br"
+  E_BR= "br",
+  E_LISTA_ORDENADA= "ol",
+  E_LISTA_NO_ORDENADA= "ul",
+  E_CENTER= "center"
 // IDj
 export const ID_SELECT = "clases", ID_SECTION = "tema", 
   ID_MAIN = "contenido";
