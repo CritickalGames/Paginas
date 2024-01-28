@@ -42,9 +42,9 @@ function crearParrafo(ARR_PARRAFO, PADRE) {
         }
         if (PARRAFO.etiqueta) {
             crearConEtiqueta(PARRAFO, OBJ_CONTENEDOR);
-            return;
+        }else{
+            crearSinEtiqueta(PARRAFO, obj_etiqueta, OBJ_CONTENEDOR);
         }
-        crearSinEtiqueta(PARRAFO, obj_etiqueta, OBJ_CONTENEDOR);
         etikedo.aldoniFilon(OBJ_CONTENEDOR, PADRE);
     });
 }
@@ -58,7 +58,7 @@ function crearConEtiqueta(PARRAFO, PADRE) {
     for (const key in PARRAFO) {
         mirarAtributo(PARRAFO, key, OBJ_ETIQUETA);
     }
-    etikedo.aldoniFilon(OBJ_ETIQUETA, PADRE)
+    etikedo.aldoniFilon(OBJ_ETIQUETA, PADRE);
 }
 function crearSinEtiqueta(PARRAFO, obj_etiqueta, OBJ_CONTENEDOR) {
     const OBJECT=PARRAFO.filas;
@@ -159,6 +159,7 @@ function llenarFilas(OBJ_FILA, COLUMNAS) {
                 const CONTENEDOR= etikedo.krei(key);
                 etikedo.aldoniTekston(COLUMNA.info[key], CONTENEDOR);
                 etikedo.aldoniFilon(CONTENEDOR, OBJ_FILA);
+                console.log(CONTENEDOR);
             }else{
                 etikedo.aldoniTekston(COLUMNA.info, OBJ_FILA);
             }

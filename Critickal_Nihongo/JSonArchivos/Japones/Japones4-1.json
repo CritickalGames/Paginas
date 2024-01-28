@@ -1,0 +1,21 @@
+{
+    "titulo":"¿Cómo hablar de mí o de ti?",
+    "subtemas":
+    {
+        "Pronombres":
+        [   
+            {
+                "titulo":"Lista", "etiqueta":"tabla",
+                "filas":
+                [
+                    [
+                        {"info":{"th":"Español"}, "atr":{}},
+                        {"info":{"th":"Japonés"}, "atr":{}},
+                        {"info":{"th":"Lectura"}, "atr":{}},
+                        {"info":{"th":"Connotación"}, "atr":{}}
+                    ]
+                ]
+            }
+        ]
+    }
+}
