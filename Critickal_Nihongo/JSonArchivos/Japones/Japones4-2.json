@@ -1,0 +1,86 @@
+{
+    "titulo":"Los verbos",
+    "subtemas":
+    {
+        "Conceptos básicos":
+        [
+            {
+                "titulo":"¿Cómo Funciona en español?",
+                "filas":
+                [
+                    [
+                        "En español, un verbo puede ser de uno de 3 tipos: ar, er e ir.",
+                        "Como los verbos se suelen componer de 2 partes: la parte llamada como raíz, que indica el significado de la palabra. Por ejemplo: correr y corrí tienen la misma raíz. Corr",
+                        "La otra parte es la 'terminación', que da información extra del verbo. Cuando conjugas un verbo, lo normla es que sólo cambie de la terminación.",
+                        "Si sólo cambia la terminación, es un verbo Regular, si cambia toda la palabra, es un verbo irregular(porque no sigue ninguna regla)",
+                        "Estas 'Terminaciones' son las de 'froma de diccionario' o 'infinitivo'. Si buscas el significado de una palabra, 'Caminando', te va a aparecer que es conjugación del verbo en infinitivo, 'Caminar'. Yo voy a enseñar a trabajar los verbos desde la forma de diccionario y os daré el recurso para ver como conjugar los verbos. Es más, ya puedes ver la tablas arriba a la derecha bajo le nombre 'conjugaciones de verbos'. Pero aún no lo veas."
+                    ]
+                ]
+            },
+            {
+                "titulo":"¿Cómo Funciona en japonés?",
+                "filas":
+                [
+                    [
+                        "En japonés, y muchos otros idiomas, ocurre igual. Existe la raíz que da significado, y la terminación que añade información.",
+                        "En japonés, los verbos agrupan en 3 grandes grupos y todos terminan con la vocal U:"
+                    ],
+                    [
+                        "Grupo 1: Verbos Godan. En éste grupo, los verbos en su forma diccionario terminan con una silaba: うつるくぐぬぶむす",
+                        "Lo que hace especial a éste grupo es que, como dice el nombre 五(Cinco)段(Escalones), Godan. Esto es así porque la vocal U cambia entre las 5 vocales según la conjugación. Ejemplo: si miras el botón de Conjugaciones, la fila que dice (I)+ます, es la conjugación para hablar en presente con formalidad. Un ejemplo 話す[はなす](hablar) o 話します[はなします](hablando).",
+                        "Ya explicaré esto de los verbos formales e informales más adelante, pero ten en cuenta 'masu' es para dar formalidad."
+                    ],
+                    [
+                        "Grupo 2: Verbo Ichidan. En éste grupo, los verbos terminan con la vocal (E) o (I) + la silaba る. (E)+る. Ejemplo: 食べる[たべる](comer). A diferencia del grupo original, las conjugaciones en éste grupo se hacen cambiando la る. Volviendo con el verbo formal: 食べます. Mismo verbo 'たべ+ます'. Otro ejemplo es: 見る[みる](ver), donde la conjugación se hace cambuando la ultima silaba.",
+                        "Como comparación, los verbos se llaman 'Ichidan', porque la vocal no cambia. La (E) o (I) no cambia. Como en Taberu y Tabemasu"
+                    ],
+                    [    
+                        "Grupo 3: Verbos irregulares. Los verbos irregulares, siempre son odiados en todo idioma, pero el japonés es tan hermoso, que en japonés sólo hay 2 verbos irregulares que siguen sus propias reglas: する[hacer], 来る[くる](venir)"
+                    ]
+                ]
+            },
+            {
+                "titulo":"Conjugaciones",
+                "filas":
+                [
+                    [
+                        "Cada idioma tiene sus propias conjugaciones para expresar aquello que más le interesa. Por esto, no puedo darle una explicación exaustiva de cada conjugación, pero sí puedo explicarles algunas y las que se ven en la tabla."
+                    ],
+                    [
+                        "Las conjugaciones no hace falta que te las memorices inmediatamente como el hiragana o las palabras, pero si lo practicas será más fácil aprender nuevas palabras. Mientras aprendas qué quiere decir cada conjugación. Por ejemplo: las conjugaciones en pasado indican acciones pasadas. Dah, pero mientras lo entiendas, memorizar como conjugar los verbos es cuestión de tiempo."
+                    ]
+                ]
+            }
+        ],
+        "Las conjugaciones explicadas":
+        [
+            {
+                "titulo":"Formas[形](かたち)",
+                "filas":
+                [
+                    [
+                        "En japonés, las conjugaciones se llaman 'Formas' y la 'Forma' que consideramos 'base', es la 'Forma diccionario'. En español, se llama 'Infiitivo'"
+                    ]
+                ]
+            },
+            {
+                "titulo":"Formas",
+                "filas":
+                [
+                    [
+                        
+                    ]
+                ]
+            },
+            {
+                "titulo":"Formas",
+                "filas":
+                [
+                    [
+                        
+                    ]
+                ]
+            }
+        ]
+    }
+}
