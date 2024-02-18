@@ -31,7 +31,7 @@
                         "Ya explicaré esto de los verbos formales e informales más adelante, pero ten en cuenta 'masu' es para dar formalidad."
                     ],
                     [
-                        "Grupo 2: Verbo Ichidan. En éste grupo, los verbos terminan con la vocal (E) o (I) + la silaba る. (E)+る. Ejemplo: 食べる[たべる](comer). A diferencia del grupo original, las conjugaciones en éste grupo se hacen cambiando la る. Volviendo con el verbo formal: 食べます. Mismo verbo 'たべ+ます'. Otro ejemplo es: 見る[みる](ver), donde la conjugación se hace cambuando la ultima silaba.",
+                        "Grupo 2: Verbo Ichidan. En éste grupo, los verbos terminan con la vocal (E) o (I) + la silaba る. (E)+る. Ejemplo: 食べる[たべる](comer). A diferencia del grupo original, las conjugaciones en éste grupo se hacen cambiando la る. Volviendo con el verbo formal: 食べます. Mismo verbo 'たべ+ます'. Otro ejemplo es: 見る[みる](ver), donde la conjugación se hace cambiando la ultima silaba.",
                         "Como comparación, los verbos se llaman 'Ichidan', porque la vocal no cambia. La (E) o (I) no cambia. Como en Taberu y Tabemasu"
                     ],
                     [    
@@ -59,12 +59,107 @@
                 "filas":
                 [
                     [
-                        "En japonés, las conjugaciones se llaman 'Formas' y la 'Forma' que consideramos 'base', es la 'Forma diccionario'. En español, se llama 'Infiitivo'"
+                        "En japonés, las conjugaciones se llaman 'Formas' y la 'Forma' que consideramos 'base', es la 'Forma diccionario'. En español, se llama 'Infiitivo', pero la forma diccionario se usa en presente y futuro. 辞書形(じしょけい) Ya dije que no debes memorizarte los kanjis, debes memorizar las palabras. Aquí un ejemplo. A pesar de que 形 se lee かたち cuando está sólo, en esa palabra se lee けい"
+                    ],
+                    [
+                        "Ten en consideración que el japonés no indica en el verbo quien hace la acción(yo, tú, él, ella, ellos, etc), y no existe el 'futuro', así que se asume o se aclara con más palabras.",
+                        "En los ejemplos que verás, asumiremos el sujeto(quién hace la acción) y si es necesario, el tiempo. En ます形 y en otros, se verá el precente y el futuro, pero no en todos, porque es sólo para ejemplificar"
                     ]
                 ]
             },
             {
-                "titulo":"Formas",
+                "titulo":"Formas ます形(ますけい) (formal)(I)+ます",
+                "filas":
+                [
+                    [
+                        "ます形, Es la forma más formal para conjugar un verbo en japonés. Es equivalente a hablar de “usted” con la otra persona y es culturalmente oblgatorio usarlo con desconocidos o gente que no puedes considerar tu amigo."
+                    ],
+                    [
+                        "Ejemplos",
+                        "“脅す「おどす」Amenaza” =>“脅します Amenaza/amenazará”",
+                        "“開ける「あける」Abre” => “開けます Abre/abrirá”",
+                        "“助言する「じょげんする」Aconseja” => “助言します Aconseja/aconsejará”"
+                    ]
+                ]
+            },
+            {
+                "titulo":"Formas 否定形(ひていけい) (negativa)(A)+ない",
+                "filas":
+                [
+                    [
+                        "Tal y como dice el nombre 否定形, estás negando una acción."
+                    ],
+                    [
+                        "Ejemplos",
+                        "“脅す「おどす」Amenaza” =>“脅さない No amenaza/ no amenazará”",
+                        "“開ける「あける」Abre” => “開けない No abre/no abrirá”",
+                        "“助言する「じょげんする」Aconseja” => “助言しない No aconseja/no aconsejará”"
+                    ]
+                ]
+            },
+            {
+                "titulo":"Formas て形(てけい) (Forma て)",
+                "filas":
+                [
+                    [
+                        "La て形tiene varias funciones: ordenar o pedir, actúa de gerundio/continuo, construir verbos compuestos y acciones consecutivas."
+                    ],
+                    [
+                        "Ordenar",
+                        "行って(いって)(Ve)",
+                        "Si se dice así, es muy grosero, así que se usa su cualidad para 'construir verbos compuestos' para 'pedir'"
+                    ],
+                    [
+                        "Pedir",
+                        "行ってください",
+                        "Ahora estás pidiendo que se vaya. Se puede considerar una orden, pero lo estar pidiendo por favor."
+                    ],
+                    [
+                        "Gerundio",
+                        "行っている",
+                        "Ahora, el verbo está convinanto 'ir'+'cosa viva ser/cosa viva estar', así que significa algo así como 'la cosa viva está yendo'.",
+                        "¿Por qué asuntuo lo de 'cosa viva'? Es porque existe el verbo ある(在る), que se aplica que se aplica a cosas innanimadas.",
+                        "En verdad, no parece ser muy utilizado 行ってある o similares, pero si ves que se convina て+ある ya sabes como interpretarlo. 'Algo inanimado lo está haciendo'"
+                    ],
+                    [
+                        "Verbos compuestos",
+                        "Ya di algunos ejemplos, así que me limitaré a acotar que más que un verbo compuesto, se puede interpretar que están coordinando dos oraciones: En el caso de いってる 'Voy y estoy'"
+                    ],
+                    [
+                        "Acciones consecutivas",
+                        "話して聞く(はなしてきく)(Hablar y escuchar)",
+                        "Hablas y escuchas, o, se puede decir cosas como: como y me voy; leo y me voy a dormir."
+                    ]
+                ]
+            },
+            {
+                "titulo":"Formas た形(たけい) (pasado simple)",
+                "filas":
+                [
+                    [
+                        "Una acción que ya fue"
+                    ],
+                    [
+                        "Ejemplos",
+                        "“脅す「おどす」Amenaza” =>“脅した amenacé”",
+                        "“開ける「あける」Abre” => “開けた abrí",
+                        "“助言する「じょげんする」Aconseja” => “助言した aconsejé"
+                    ]
+                ]
+            },
+            {
+                "titulo":"Formas 可能形(かのうけい) (potencial)(E)+る",
+                "filas":
+                [
+                    [
+                        "El potencial se utiliza para expresar que uno tiene la capacidad de hacer algo. Dado que esta es una conjugación pasiva, lo que sería un objeto directo está marcado con la partícula が, en lugar de を(お). Por ejemplo,日本語が読める(にほんごが読める) 'Puedo leer en japonés'. Para los que vieron algunos vídeos de japones y no entendían el motivo de usar か en vez de はo を, bueno, ese es el motivo: la forma en la que se escriben las oraciones con verbos pasivos en japones. Espera y se aclaran las dudas con respecto a esto de los “verbos pasivos”.",
+                        "Se puede escribir para preguntar   “コーヒーが買える？ ¿Puedes comprar café?”.",
+                        "Para buscar el permiso de algo, no se usa éste 形, pues si dices, por ejemplo, このりんご が食べられる, se puede tomar, en éste caso, como “¿Esta manzana es comestible?”. Para pedir habría que usar “このりんごを食べてもいいですか” o “このりんごを食べていい？. Una de ellas ya te la presente, la otra es un extra que me encontré. Notar que “てもいい” termina en “です”, pero “て” いい no. Esto es por formalidad. El かal final es una partícula. Espera la clase de partículas."
+                    ]
+                ]
+            },
+            {
+                "titulo":"Formas 条件形(じょうけんけい) (condicional)(E)+ば",
                 "filas":
                 [
                     [
@@ -73,7 +168,70 @@
                 ]
             },
             {
-                "titulo":"Formas",
+                "titulo":"Formas ら形||たら形(らけい||たらけい) (pasado condicional)(pasado+ら)",
+                "filas":
+                [
+                    [
+                        
+                    ]
+                ]
+            },
+            {
+                "titulo":"Formas 意向形(いこうけい)(volativo)(O)+う",
+                "filas":
+                [
+                    [
+                        
+                    ]
+                ]
+            },
+            {
+                "titulo":"Formas 受け身形(うけみけい) (verbo pasivo)(A)+れる",
+                "filas":
+                [
+                    [
+                        
+                    ]
+                ]
+            },
+            {
+                "titulo":"Formas 使役(しえきけい) (verbo Causativo)(A)+せる",
+                "filas":
+                [
+                    [
+                        
+                    ]
+                ]
+            },
+            {
+                "titulo":"Formas 受け身使役形(うけみしえきけい) (La forma pasiva causal)(A)+せられる",
+                "filas":
+                [
+                    [
+                        
+                    ]
+                ]
+            },
+            {
+                "titulo":"Formas 禁止形(きんしけい) (prohibitiva)(U)+な",
+                "filas":
+                [
+                    [
+                        
+                    ]
+                ]
+            },
+            {
+                "titulo":"Formas 命令形(めいれいけい)(imperativa)(て形+いる)",
+                "filas":
+                [
+                    [
+                        
+                    ]
+                ]
+            },
+            {
+                "titulo":"Formas 進行形(しんこうけい) (Progresiva)(て形+いる)",
                 "filas":
                 [
                     [
