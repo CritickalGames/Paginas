@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX con PHP</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+<h2>Consulta PHP con AJAX</h2>
+<button id="btnGetData">Obtener datos</button>
+<div id="dataContainer"></div>
+
+<script>
+$(document).ready(function(){
+    $("#btnGetData").click(function(){
+        $.ajax({
+            url: "php.php",
+            type: "GET",
+            success: function(response){
+                $("#dataContainer").html(response);
+            }
+        });
+    });
+});
+</script>
+
+</body>
+</html>
