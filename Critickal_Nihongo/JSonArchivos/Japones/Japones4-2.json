@@ -48,6 +48,10 @@
                     ],
                     [
                         "Las conjugaciones no hace falta que te las memorices inmediatamente como el hiragana o las palabras, pero si lo practicas será más fácil aprender nuevas palabras. Mientras aprendas qué quiere decir cada conjugación. Por ejemplo: las conjugaciones en pasado indican acciones pasadas. Dah, pero mientras lo entiendas, memorizar como conjugar los verbos es cuestión de tiempo."
+                    ],
+                    [
+                        "La lista de conjugaciones que explico, probablemente no sean todas y probablemente hayan más convinaciones, per creo que con esta lista están más que servidos",
+                        "Además, las conjugaciones tendrán un pequeño atajo en el titulo para que sea más rápido ver la conjugación GODAN, devido a que la ICHIDAN sólo requiere cambiar る por la terminación respectiva."
                     ]
                 ]
             }
@@ -59,16 +63,19 @@
                 "filas":
                 [
                     [
-                        "En japonés, las conjugaciones se llaman 'Formas' y la 'Forma' que consideramos 'base', es la 'Forma diccionario'. En español, se llama 'Infiitivo', pero la forma diccionario se usa en presente y futuro. 辞書形(じしょけい) Ya dije que no debes memorizarte los kanjis, debes memorizar las palabras. Aquí un ejemplo. A pesar de que 形 se lee かたち cuando está sólo, en esa palabra se lee けい"
+                        "En japonés, las conjugaciones se llaman 'Formas' y la 'Forma' que consideramos 'base', es la 'Forma diccionario'. En español, se llama 'Infiitivo', pero la forma diccionario se usa en presente y futuro.",
+                        "辞書形(じしょけい)(Forma diccionario) Ya dije que no debes memorizarte los kanjis, debes memorizar las palabras. Aquí un ejemplo.",
+                        "A pesar de que 形 se lee かたち cuando está sólo, en 辞書形 se lee けい"
                     ],
                     [
                         "Ten en consideración que el japonés no indica en el verbo quien hace la acción(yo, tú, él, ella, ellos, etc), y no existe el 'futuro', así que se asume o se aclara con más palabras.",
-                        "En los ejemplos que verás, asumiremos el sujeto(quién hace la acción) y si es necesario, el tiempo. En ます形 y en otros, se verá el precente y el futuro, pero no en todos, porque es sólo para ejemplificar"
+                        "En los ejemplos que verás, asumiremos el sujeto(quién hace la acción) y si es necesario, el tiempo.",
+                        "En ます形 y en otros, se verá el precente y el futuro, pero no en todos, porque es sólo para ejemplificar"
                     ]
                 ]
             },
             {
-                "titulo":"Formas ます形(ますけい) (formal)(I)+ます",
+                "titulo":"Forma ます形(ますけい) (formal)(I)+ます",
                 "filas":
                 [
                     [
@@ -83,7 +90,7 @@
                 ]
             },
             {
-                "titulo":"Formas 否定形(ひていけい) (negativa)(A)+ない",
+                "titulo":"Forma 否定形(ひていけい) (negativa)(A)+ない",
                 "filas":
                 [
                     [
@@ -98,7 +105,7 @@
                 ]
             },
             {
-                "titulo":"Formas て形(てけい) (Forma て)",
+                "titulo":"Forma て形(てけい) (Forma て)",
                 "filas":
                 [
                     [
@@ -133,7 +140,7 @@
                 ]
             },
             {
-                "titulo":"Formas た形(たけい) (pasado simple)",
+                "titulo":"Forma た形(たけい) (pasado simple)",
                 "filas":
                 [
                     [
@@ -148,7 +155,7 @@
                 ]
             },
             {
-                "titulo":"Formas 可能形(かのうけい) (potencial)(E)+る",
+                "titulo":"Forma 可能形(かのうけい) (potencial)(E)+る",
                 "filas":
                 [
                     [
@@ -159,83 +166,156 @@
                 ]
             },
             {
-                "titulo":"Formas 条件形(じょうけんけい) (condicional)(E)+ば",
+                "titulo":"Forma 条件形(じょうけんけい) (condicional)(E)+ば",
                 "filas":
                 [
                     [
-                        
+                        "Se utiliza para formar la cláusula condicional de una oración.",
+                        "雨が降れば、家にいきます。 (あめがふれば、いえにいきます/Ame ga fureba, ie ni ikimasu) - Si llueve, voy a casa.",
+                        "(知る見れば')(しるみれば) 'lo sabrá si mira' = 'si usted ve, lo sabrá '"
+                    ],
+                    [
+                        "La conjugación también expresa 'obligación', aunque es cuando se usa en una expresión concreta",
+                        "'X-なければならない' o, de manera formal 'なければなりません', viene de 'ない'(no) en su forma condicional y 'なる'(que implica una transformación) en su forma negada",
+                        "Esta convinación se usa como conjugación para verbos o al final de una oración, para expresar el deber de hacer algo",
+                        "勉強しなければなりません(べんきょうし・なければ・なりません/benkyoushi-nakereba-narimasen) que significa 'Debo estudiar'(recuerda que el sujeto y el tiempo está asumido, así que podría decir 'deberás estudiar')",
+                        "Si se desea negar esta expresión se usa なくてもいい en vez de narimasen",
+                        "自己紹介は日本語でなければなくてもいい (じこしょうかい・は・にほんご・で・なければ・なくてもいい). En éste caso estoy diciendo 'Que la presentación no debe ser hecha en japonés'",
+                        "De tarea te encargo decir 'La presentación debe ser hecha en japonés'. Ya tienes las herramientas, sólo haz la oración original una afirmación"
+                    ],
+                    [
+                        "Para hacer una condicional también existe una particula que indica que si un caso muy especifico ocurre, pasará algo",
+                        "雨の場合、傘を持っていきます。 (あめのばあい、かさをもっていきます/Ame no baai, kasa o motte ikimasu) - En caso de lluvia, llevaré un paraguas."
                     ]
                 ]
             },
             {
-                "titulo":"Formas ら形||たら形(らけい||たらけい) (pasado condicional)(pasado+ら)",
+                "titulo":"Forma ら形||たら形(らけい||たらけい) (pasado condicional)(pasado+ら)",
                 "filas":
                 [
                     [
-                        
+                        "日本に行ったら、何が問題になるのでしょうか？(にほん・に・いったら、なに・が・もんだい・に・なる・の・でじょうか) Si fui Japón, ¿Cuál sería el problema?” o '¿Qué problema hay si fui a japón?'.",
+                        "Recuerda que lo importante es captar el mensaje, expresarlo requiere practica y es una profeción para la que se estudia durante mucho tiempo. Yo me contento si aprendes a entender el mensaje original"
                     ]
                 ]
             },
             {
-                "titulo":"Formas 意向形(いこうけい)(volativo)(O)+う",
+                "titulo":"Forma 意向形(いこうけい)(volativo)(O)+う",
                 "filas":
                 [
                     [
-                        
+                        "Expresa un deseo o una inteción. Es como el 'let's go' del inglés",
+                        "頑張ろう！ (がんばろう!) - ¡Vamos a esforzarnos!",
+                        "行こう！ (いこう！) - ¡Vamos! / ¡Vayamos!",
+                        "食べよう！ (たべよう！) - ¡Vamos a comer!",
+                        "試そう！ (ためそう！) - ¡Vamos a intentarlo!",
+                        "話そう！ (はなそう！) - ¡Vamos a hablar!"
                     ]
                 ]
             },
             {
-                "titulo":"Formas 受け身形(うけみけい) (verbo pasivo)(A)+れる",
+                "titulo":"Forma 受け身形(うけみけい) (verbo pasivo)(A)+れる",
                 "filas":
                 [
                     [
-                        
+                        "El nivel de formalidad だno tiene modo pasivo.",
+                        "Para conjugar un ます形, en pasivo, cambias el るpor ます. 買「か」われます."
+                    ],
+                    [
+                        "Ahora paso a explicar un poco como van los verbos pasivos en español y japonés. Sí, también existen en español y son algo medio complicado de entender para los hispano hablantes, pero es relativamente común usar esta forma en otros idiomas",
+                        "En el español existe el concepto de “Voz” pasiva o activa. La activa es la que más solemos utilizar."
+                    ],
+                    [
+                        "El modo activo tiene la siguiente estructura:",
+                        "Sujeto(quien o que aplica la acción)+verbo+objeto directo(a quien o que se le aplica la acción)."
+                    ],
+                    [
+                        "El modo pasivo, menos intuitivo para nosotros, es:",
+                        "objeto directo+verbo ser/estar+verbo(no hace falta que esté en infinitivo)+sujeto"
+                    ],
+                    [
+                        "Ejemplos en español y Japonés. Primero con voz activa y luego con voz pasiva",
+                        "Colon descubrió América=>América[Objeto Directo] fue[Ser] descubierta[Verbo] por Colon[Sujeto].",
+                        "コロンはアメリカを発見した(ころん・は・あめりか・を・はっけんした)",
+                        "=>アメリカがコロンに発見されました. Tambien podría haber dicho 発見される, pero hice quisé hacer la segunda de manera formal.",
+                        "El patrón gramatical para hacer una oración pasiva, en japonés es convertir la particula は(leida como わ) en la particula が y convertir を(lectura お) a la perticula に",
+                        "Cuando hablemos de las preposisiones y categorias propias en el 4.7, entenderás mejor y te darás cuenta que casi siempre estuviste leyendo は mal cuando correspondía leerlo como わ"
                     ]
                 ]
             },
             {
-                "titulo":"Formas 使役(しえきけい) (verbo Causativo)(A)+せる",
+                "titulo":"Forma 使役(しえきけい) (verbo Causativo)(A)+せる",
                 "filas":
                 [
                     [
-                        
+                        "Se usa para indicar que alguien obliga a otra persona a hacer la acción. Un ejemplo fácil sería",
+                        "Estudia, o te haré estudiar=>勉強しなさい。さもないと、勉強させます",
+                        "べんきょう es etudiar, pero como es un sustantivo, se usa el verbo する hacer. En el caso de べんきょうしなさい, es una forma formal e imperativa de decir 'estudia'.",
+                        "さもないと es 'o de lo contrario'",
+                        "べんきょうさせます es la forma formal aplicada a la forma imperitiva(sólo tuve que cambiar el る de させる por ます)"
                     ]
                 ]
             },
             {
-                "titulo":"Formas 受け身使役形(うけみしえきけい) (La forma pasiva causal)(A)+せられる",
+                "titulo":"Forma 受け身使役形(うけみしえきけい) (La forma pasiva causal)(A)+せられる",
                 "filas":
                 [
                     [
-                        
+                        "Sería algo como 'Alguien' probocó 'Algo o alguien' hiciera 'algo' a 'Alguien más'",
+                        "僕は友達に手紙を書かせられました(ぼく・は・ともだち・に・てがみ・を・かか・せられました) => Yo fui obligado a escribir una carta, por mi amigo",
+                        "¿Quién causó que alguien más hiciera la acción? El que va antes de に, en éste caso: amigo ともだち",
+                        "¿A quién o qué le obligaron? Es lo que va antes del は, en éste caso: yo ぼく",
+                        "En éste caso se necesita saber qué cosa escribí, y va antes del を, en éste caso: una carta てがみ"
+                    ],
+                    [
+                        "Otro ejemplo, pero esta vez, alguien fue mordido por un perro. En éste caso, lo 'causado' es la mordida",
+                        "彼は犬に噛まれさせられました(かれ・は・いぬ・に・かまれ・させられました)=>'Él fue hecho morder por un perro' o 'Él fue mordido por un perro'",
+                        "El verbo 噛む parese que tiene muchas modificaciones, pero no tiene más modificaciones que 書かせられました",
+                        "Primero, el verbo かむ, morder: pasa a su forma pasiva 'かまれる'.",
+                        "Luego, se sustituye る por el verbo する en su forma causativa => させる + (A)+れる[pasiva] + ました[pasado formal]=> させ・られ・ました"
+                    ],
+                    [
+                        "私たちは先生に宿題をやらせられました(わたちたち・は・せんせい・しくだい・を・やらせられました)=>'Fuimos hechos a hacer la tarea', o mejor dicho: 'Fuimos obligados por el profesor a hacer la tarea'",
+                        "Volvemos a estructura de la primera oración donde hay un は、に、を. Aclaro que no hace falta usar esas particulas en ese orden concreto, pero ya lo veremos cuando aprendamos a formar oraciones.",
+                        "Viendo el verbo やる; Es como el verbo する, pero más informal o dirigido a cosas cotidianas, como la tarea.",
+                        "やる=>やらせる=>やらせられる=>やらせ・られ・ました. Misma lógica que en el ejemplo dos. Convinamos conjugaciones susituyendo el る."
                     ]
                 ]
             },
             {
-                "titulo":"Formas 禁止形(きんしけい) (prohibitiva)(U)+な",
+                "titulo":"Forma 禁止形(きんしけい) (prohibitiva)(U)+な",
                 "filas":
                 [
                     [
-                        
+                        "試験中に携帯電話を出すな(しけんちゅう・に・けいたいでんわ・を・ですな)=>'En el examen, está prohibido sacar él movil'=='No saquen el movil en el examen'"
                     ]
                 ]
             },
             {
-                "titulo":"Formas 命令形(めいれいけい)(imperativa)(て形+いる)",
+                "titulo":"Forma 命令形(めいれいけい)(imperativa)(E)",
                 "filas":
                 [
                     [
-                        
+                        "El “Imperativo” es un modo verbal que expresa orden, ruego o mandato. Es un tanto informal, así que hasta que no comprendas los matices del contexto en japón, es mejor no usarlo"
+                    ],
+                    [
+                        "Como Instrucciones directas:",
+                        "食べろ (たべろ) - ¡Come! (imperativo del verbo '食べる', 'comer')",
+                        "寝ろ (ねろ) - ¡Duerme! (imperativo del verbo '寝る', 'dormir')"
                     ]
                 ]
             },
             {
-                "titulo":"Formas 進行形(しんこうけい) (Progresiva)(て形+いる)",
+                "titulo":"Forma 進行形(しんこうけい) (Progresiva)(て形+いる)",
                 "filas":
                 [
                     [
-                        "S"
+                        "'Arreando que es gerundio' Bueno, esa no, porque 'arrear' es 'guiar al animal' y no hay una palabra especifica para eso, pero, la forma 'progresiva' es el 'gerundio' de toda la vida. Una acción que se está aciendo: caminando, comiendo, corriendo, etc",
+                        "En japonés es: verbo en forma て + verbo いる",
+                        "食べる=>たべている, que en santo cristiano significa: 'estar comiendo'"
+                    ],
+                    [
+                        "Y con los progresivos, yo voy terminando(que también es gerundio) el capitulo. Son las 3 AM y no sé por qué me puse a escribir esto tan tarde, pero espero no te desesperes porque hay mucho texto y sientes que casi no avanzas. Tenme paciencia que cuando lleguemos al capitulo 5 aprenderemos a crear oraciones y verás como saber TODO esto te ayuda a comprender muy fácil todo lo que allí explique."
                     ]
                 ]
             }
