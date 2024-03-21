@@ -1,0 +1,135 @@
+{
+    "titulo":"Los adjetivos",
+    "subtemas":
+    {
+        "¿Qué tipos hay?":
+        [
+            {
+                "titulo": "Intro",
+                "filas":
+                [
+                    [
+                        "En todos los idiomas existen palabras que describen los objetos que nos rodean, o en algún tipo de estructura para describir.",
+                        "En japonés usaremos 2 tipos: い y な. Desconozco motivo de porqué hay 2 tipos, pero supongo que es por herencia lingüistica",
+                        "La diferencia escencial que puedo mencionar es que los adjetivos que terminan en い se pueden conjugar y ese hiragana se cosnidera parte de la palabra",
+                        "Los de tipo な, no son conjugables y ese hiragana no se considera parte de la palabra, si no que una partícula que funje para que se entienda bien en la gramatica"
+                    ]
+                ]
+            },
+            {
+                "titulo": "Los tipos い",
+                "filas":
+                [
+                    [
+                        "青い(あおい) Azul”,   “大きい(おおきい) Grande”,   “小さい(ちい) Pequeño”,   高い(たかい)“Caro/alto”"
+                    ],
+                    [
+                        "A diferencia del tipo な, es conjugable y esas conjugaciones se aplican a la い",
+                        "Una expeción a esto de las conjugaciones, son los colores: 青い es el adjetivo de 'Azul', pero 青 es el sustantivo de 'Azul'. Podrías decir perfectamente 'Azul Azul' y ser entendido diciendo 青い青, porque estás diciendo que el azul, es de color azul. Pero para usar un adjetivo como sustantivo, en verdad debes hacer una conjugación."
+                    ],
+                    [
+                        "Si la vocal I está en un hiragana que no es い, esa I no cuenta para decir si el adjetivo es tipo い.",
+                        "Si la vocal I está en un kanji, esa I no cuenta para deci si el adjetivo es tipo い",
+                        "Pero, generalmente te darás cuenta por la posición del adjetivo."
+                    ]
+                ]
+            },
+            {
+                "titulo": "Los tipos な",
+                "filas":
+                [
+                    [
+                        "静()「しず」か[な] “Tranquilo”, 馬鹿「ばか」()[な] “Tono”, きれい()[な] “bonito”"
+                    ],
+                    [
+                        "En verdad, no hay mucho que decir: no se pueden conjugar y si quieres aplicar modificadores debes agregar más particulas. Si quieres usar un adjetivo de estos como un sustantivo, debes agregar の",
+                        "También, para que no te preguntes el porqué usé [] al decir な, es porque な es un elemento opcional y que sólo se aplicará cuando el adjetivo tipo な se use como adjetivo y por lo tanto, vaya antes de un sustantivo para describirlo."
+                    ]
+                ]
+            }
+        ],
+        "¿Cómo usarlos":
+        [
+            {
+                "titulo": "Usar los adjetivos como Adjetivos",
+                "filas":
+                [
+                    [
+                        "Es un título raro, ya sé, pero en japonés los adjetivos tienen 2 usos: adjetivos y verbos",
+                        "Para usar los adjetivos como adjetivos(dios, que redundante suena eso), debes poner el adjetivo antes del sustantivo",
+                        "La lógica es la misma para ambos: si ves un ese hiragana que los identifica antes de que termine la oración, signficia que es un adjetivo",
+                        "Las oraciones terminan en un verbo, siempre. Pero eso lo veremos luego."
+                    ],
+                    [
+                        "Con los tipos い",
+                        "山田さんは大きい家に住んでいます(やまだ・さん・は・おおきい・いえ・に・すんでいます) = El Sr. Yamada vive en una casa grande."
+                    ],
+                    [
+                        "Con los tipo な",
+                        "私「わたし」は「わ」静かな町「まち」が好「す」きです(わたし・は・しすか・な・まち・が・すきです)=Me gustan las ciudades tranquilas."
+                    ]
+                ]
+            },
+            {
+                "titulo":"Usar varios adjetivos como adjetivos",
+                "filas":
+                [
+                    [
+                        "Es otro titulo raro, pero ¿Cómo dirías 'un coche alto, rápido, delicioso y nuevo'? Sí, ya sé que no conoces las palabras, pero, convengamos que las conoces; Seguro que llenarías la oración de な e い, pero estarías cometiendo un error",
+                        "Los adjetivos de tipo い se conjugan para que terminen en くて para decir 'luego de éste adjetivo, viene otro más'. Los adjetivos de tipo な al no poder ser conjugados, se remplzan por el conector で."
+                    ],
+                    [
+                        "高くて速くて美味しくて新しい車 (たかくて・はやくて・おいしくて・あたらしい・くるま)",
+                        "Un coche alto, rápido, delicioso y nuevo",
+                        "高くて = Alto (También puede significar 'caro' y puede hacer referencia a cosas de alto estatus, pero yo quise decir que es 'Alto' a pesar de que lo más común sería decir 'El auto es Caro')",
+                        "速くて = Rápido (FIUUUMMM)",
+                        "美味しくて = Delicioso (Sí, delicioso. Mi autito es de chocolate)",
+                        "新しい = Nuevo (Como es el último adjetivo, no decimo くて, porque lo que sigue es un sustantivo)",
+                        "車 = Auto (Si te fijas, くるま se ecribe como una carreta: La caja del medio es la parte donde llevas la carga, el trazo vertical es el eje y tanto la linea de arriba como la de abajo son las rueditas. Si ves ese kanji dentro de otro más grande, entonces significa que es algo que se mueve o es un medio de transporte)"
+                    ],
+                    [
+                        "静かできれいで広くて快適な部屋 (しずか・で・きれい・で・ひろ・くて・かいてき・な・へや)",
+                        "Una habitación tranquila, bonita, espaciosa y confortable",
+                        "静かで = Tranquilo (Como es de tipo な, termina en で)",
+                        "きれいで = Hermoso o Bonito (Preferiblemente 'Bonito'. También se puede escribir 綺麗な; aunque tambien se puede escribir 奇麗な. Averigua la diferencia de connotación por tu cuente. Chat GPT da una buena explicación. Pero cuidado, no se puede usar para todo, porque falla en cosas cuando comienza a tener un mínimo de complegidad.)",
+                        "広くて = Espacioso (Se reconoce que originalmente era de tipo い porque termina en くて)",
+                        "快適な = (A estas alturas ya has de ser capaz de adivinar qué significa éste adjetivo de tipo な sólo comparando la traducción y el texto original) Confortable ",
+                        "部屋 = (Otra cosa que ya deberías ser capaz de adivinar qué significa y cómo se lee al ser lo último que aparece en el texto original) Habitación (de lectura HAYA はや. Lo escribí en romanji para recordar que HA se lee como una risa y YA se lee como IA, como en Rias Gremori o Reías)"
+                    ]
+                ]
+            },
+            {
+                "titulo": "Usar los adjetivos como Verbos",
+                "filas":
+                [
+                    [
+                        "Cuando los verbos en japonés se usan como verbos, van al final o se usan sin un sustantivo. En estos casos se puede traducir con 'es + adjetivo'"
+                    ],
+                    [ 
+                        "車は綺麗(くるま・は・きれい)",
+                        "El auto es bonito",
+                        "Si se fijan en los ejemplso anteriores, kirei es un adjetivo tipo な, pero ahora no tiene nada después del decir きれい(recuerda que se lee kiree, porque la I alarga los sonidos E). Los adjetivos な, al suarse como adjetivos, pierden ese な"
+                    ],
+                    [
+                        "車は高い(くらま・は・たかい)",
+                        "El auto es caro",
+                        "En esta ocación, quisé decir que el auto es caro, y no alto, porque sería lo más indicado.",
+                        "Pero llendo al adjetivo 高い mantiene la い a pesar de seguir como un verbo, porque esa い es parte de la palabra y no un elemento gramatical."
+                    ],
+                    [
+                        "Es gracioso que haya elegido dos adjetivos que terminan en la vocal I para representar los ejemplos, pero es a conciencia, para que se note que te puedes confundir y que ante la duda hay que ver el diccionario, porque cuando la vocal es parte de un hiragana que no es い, o parte de un kanji, no cuenta como parte de los adjetivos い"
+                    ]
+                ]
+            }
+        ],
+        "¿Se pueden modificar?":
+        [
+
+        ],
+        "¿Se pueden crear nuevos adjetivos?":
+        [
+
+        ]
+
+    }
+}
