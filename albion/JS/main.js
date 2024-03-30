@@ -3,14 +3,14 @@ function mostrarTitulo(btn) {
     document.getElementById("mensaje").innerHTML = titulo;
 }
 // Hacer una petición AJAX al archivo PHP
+// Hacer una petición AJAX al archivo PHP
 $.ajax({
-    url: 'PHP/main.php',
+    url: 'PHP/Vista/main.php',
     type: 'GET',
     dataType: 'json',
     success: function(data) {
         // Manipular los datos recibidos
-        console.log("data");
-        console.log(data);
+        console.log(data); // Aquí puedes realizar cualquier manipulación de los datos
     },
     error: function(XMLHttpRequest, status, error) {
         // Manejar errores
