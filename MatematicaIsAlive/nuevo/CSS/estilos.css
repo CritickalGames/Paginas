@@ -1,0 +1,43 @@
+input{
+    width: 130px;
+}
+
+.portada{
+    width:50%;
+}
+
+.tupla{
+    color: #fff;
+	background-color: #000;
+}
+
+.contenedor{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.contenedor > p{
+    text-align: center;
+}
+
+td{
+    border-top-width: 30px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.table{
+    vertical-align: middle;
+}
+
+table{
+    border-collapse: separate;
+}
+
+body{
+    background-color:currentColor;
+}

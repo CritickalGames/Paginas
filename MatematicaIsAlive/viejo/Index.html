@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeIsAlive</title>
+    <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/es/img/favicon.ico?v=a8def514be8a">
+
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" >
+    <link rel="stylesheet" href="CSS/estilos.css" >
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+<div class="row">
+    <div class="col"></div>
+    <div class="col">
+        <table class="table table-bordered border-dark table-primary" id="table">
+            <tr>
+                <td><button id="boton">Subir</button></td>
+                <td><input id="nombre" type="text"></td>
+                <td><input id="temporada" type="text"></td>
+                <td><input id="capitulo" type="text"></td>
+                <td><select id="estado">
+                        <option value="ver">pendiente</option>
+                        <option value="viendo">viendo</option>
+                        <option value="visto">visto</option>
+                        <option value="ver pelicula">pelicula</option>
+                        <option value="vista pelicula">pelicula vista</option>
+                    </select></td>
+                <td><input id="opinon" type="number" min="0" max="100" value="0"></td>
+            </tr>
+            <tr id="noBorrar">
+                <td>
+                    <select id="selector">
+                        <option value="Subir">Subir</option>
+                        <option value="Borrar">Borrar</option>
+                        <option value="Buscar">Buscar</option>
+                        <option value="Listar">Listar</option>
+                        <option value="Inicial">Inicial</option>
+                        <option value="Contar">Contar</option>
+
+                        <option value="Nuevo Capitulo">Nuevo Capitulo</option>
+                        <option value="Editar Estado">Editar Estado</option>
+                        <option value="Opinar">Opinar NO FUNCIONA</option>
+
+                    </select>
+                </td>
+                <td>Nombre</td>
+                <td>Temporada</td>
+                <td>Capitulo</td>
+                <td>Estado</td>
+                <td>Opinion</td>
+            </tr>
+        </table>
+        <div class="row bg-danger">
+            <div class="row">
+            /////PENDIANTE:
+            </div>
+            <div class="col">
+            /////Agregar una tupla que no desentone con el resto y sirva para subir nuevas series
+            /////Que agregar una serie pueda agregar el capitulo y la temporada directamente
+            /////Que al agregar la serie pueda agregarlo con el estado que desee
+            /////Poder modificar el capitulo o el estado directamente desde la tupla
+            /////Poder agregar imagenes directamente desde la página
+            </div>
+            <div class="col">
+            /////
+            </div>
+            <div class="col">
+            /////AGREGAR UNA ANIMACIÓN AL DESAPARECER Y REAPARECER
+            </div>
+            <div class="col">
+            /////Actores, estudios de productores, dobladores
+            </div>
+            <div class="col">
+            /////LOGIN Y REGISTRO.
+            </div>
+            <div class="col">
+            /////ALERTAS.
+            </div>
+            <div class="col">
+            /////IMPLEMENTACIÓN DE API EXTERNAS.
+            </div>
+            <div class="col">
+            /////IMPLEMENTAR IMAGENES.
+            </div>
+            <div class="col">
+            /////TABLA DE FRANQUICIAS.
+            </div>
+            <div class="col">
+            /////CUANDO NO QUEDEN ELEMENTOS CON LA INICIAL DEL ELEMENTO QUE BORRASTÉ, QUE MUESTRE LOS ELEMENTOS DE LA A.
+            </div>
+            <div class="col">
+            /////SI NO HAY ELEMENTOS A, MUESTRE B Y ASÍ SUSESIVAMENTE.
+            </div>
+        </div>
+        <div class="row bg-success">
+            <div class="row">
+                /////HECHO:
+            </div>
+            <div class="col">
+            /////SUBIR, BORRAR, BUSCAR, ACTUALIZAR, BUSCAR A MEDIDA DE QUE VAS ESCRIBIENDO, EDITA ESTADOS
+            </div>
+            <div class="col">
+            /////CONTAR: CUENTA CUANTOS ANIMES HE VISTO Y LO MUESTERA
+            </div>
+            <div class="col">
+            /////LISTAR: LISTA TODO CON POSIBILIDAD DE BUSCAR
+            </div>
+            <div class="col">
+            /////BUSCAR: SI ESCRIBES EN LA BARRA DEL NOMBRE EMPIEZA A BUSCAR AUTOMATICAMENTE RESULTADOS QUE EMPIECEN IGUAL; LA OPCIÓN DE BUSCAR BUSCA DE CUALQUIER NOMBRE
+            </div>
+            <div class="col">
+                /////BORRAR: LIMPIA EL INPUT AL BORRAR, BORRA ANIME Y SU TODOS SUS ESTADOS, ACTUALIZA LA PAGINA AL BORRAR UN ELEMENTO
+                </div>
+            <div class="col">
+                ////LIMPIAR EL INPUT CUANDO BORRAS ALGO Y DEJAR EL LISTAR CON LA INICIAL DEL ANIME BORRADO
+            </div>
+            <div class="col">
+                ////SUBIR CAPITULO, ACTUALIZARLO, MOSTRAR LA ÚLTIMA TEMPORADA CON SU RESPECTIVO CAPITULO
+            </div>
+            <div class="col">
+                ////PUEDO CLICKAR EN EL NOMBRE DE UN ANIME Y COLOCAR EL CONTENIDO DE LA TUPLA EN NOMBRE Y TEMPORADA
+            </div>
+            <div class="col">
+                ////ARQUITECTURA ACTUALIZADA
+            </div>
+        </div>
+        
+    </div>
+    <div class="col"></div>
+<div>
+    
+</div>
+
+</body>
+<!--SCRIPTS-->
+    <script src="JS/ADMIN.js"></script>
+    </html>
