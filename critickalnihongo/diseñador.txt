@@ -1,0 +1,10 @@
+La pagina inicial tendrá el Aho No Critickal Nihongo como tiulo
+Dos botones flotantes abajo a la izquierda: kanas y conjugaciones de verbos
+
+una barra de opciones: probablemetne, un menú desplegable para elegir idioma //! custionable
+La barra anterior se crea con botones creados con un json.
+
+Los botones anteriores al ser clicados despliegan la lista de idiomas que se pueden aprender en tu idioma elegido.
+Estos idiomas están guardados como un atributo en el mismo json de btn_idiomas.json
+
+Al elegir el idioma a aprender, se hace visible un select y se cargan en él las clases del idioma/objtivo elegido.
