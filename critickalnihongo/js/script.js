@@ -1,4 +1,4 @@
-import MdP from './js/modulos/markdownProcessor.js';
+import MarkdownProcessor from './markdownProcessor.js';
 
 window.onload = function() {
     // Ruta del archivo Markdown
@@ -16,13 +16,12 @@ window.onload = function() {
         })
         .then(data => {
             // Procesar el contenido del archivo Markdown utilizando el módulo MarkdownProcessor
-            const processedContent = MdP.process(data);
+            const processedContent = MarkdownProcessor.process(data);
 
             // Mostrar el contenido procesado del archivo Markdown en el div con id 'markdown-content'
-            document.getElementById('markdown-content').innerHTML = processedContent;
+            document.getElementById('contenedor').innerHTML = processedContent;
         })
         .catch(error => {
             console.error('Error:', error);
         });
 };
-
